@@ -1,6 +1,38 @@
 # MemVid DGCA Aircrash AI
 
-A comprehensive multi-modal AI system for analyzing and understanding aviation accident reports and related video content. This project combines advanced NLP techniques with video understanding to provide deep insights into aviation safety incidents.
+A comprehensive multi-modal AI system for analyzing and understanding aviation accident reports and related video content from the Directorate General of Civil Aviation (DGCA), India. This project combines advanced NLP techniques with video understanding to provide deep insights into aviation safety incidents.
+
+## About DGCA Accident Reports
+
+The Directorate General of Civil Aviation (DGCA) is the regulatory body for civil aviation in India. The DGCA maintains a comprehensive database of aviation accident and incident reports, which are crucial for improving aviation safety.
+
+### Data Source
+- **Official Website**: [DGCA DigiGov Portal](https://www.dgca.gov.in/digigov-portal/)
+- **Accident Reports Section**: [View Accident Reports](https://www.dgca.gov.in/digigov-portal/?dynamicPage=AccidentReports/500005/0/viewApplicationDtlsReq)
+
+### Dataset Details
+This repository contains the 15 most recent aviation accident reports from the DGCA database. These reports include:
+- Detailed investigation findings
+- Analysis of contributing factors
+- Safety recommendations
+- Statistical data on aviation accidents
+- Technical details of the incidents
+
+### Report Contents
+Each accident report typically includes:
+1. **Executive Summary**
+2. **Factual Information**
+   - History of the flight
+   - Injuries to persons
+   - Damage to aircraft
+   - Other damage
+3. **Analysis**
+   - Weather conditions
+   - Human factors
+   - Technical factors
+   - Organizational factors
+4. **Findings**
+5. **Safety Recommendations**
 
 ## Features
 
@@ -58,11 +90,19 @@ video_analysis = ai.analyze_video("path/to/accident_video.mp4")
 ```
 memvid-dgca-aircrash-ai/
 ├── data/                  # Data files
+│   └── dgca_reports/      # DGCA accident reports (PDFs)
+│       ├── report_1.pdf
+│       ├── report_2.pdf
+│       └── ...
 ├── docs/                  # Documentation
+│   └── dgca_reports/      # Processed report data
+│       ├── summaries/
+│       └── analysis/
 ├── memvid_ai/             # Main package
 │   ├── __init__.py
 │   ├── document_processor.py
 │   ├── video_analyzer.py
+│   ├── dgca_parser.py     # DGCA specific report parsing
 │   └── utils.py
 ├── tests/                 # Test files
 ├── .gitignore
@@ -71,9 +111,21 @@ memvid-dgca-aircrash-ai/
 └── requirements.txt
 ```
 
+## Data Usage and Citation
+
+When using the DGCA accident reports, please ensure to:
+1. Acknowledge DGCA as the data source
+2. Use the data responsibly and in compliance with DGCA's terms of service
+3. For research publications, cite the original DGCA reports appropriately
+
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions to enhance the analysis of DGCA accident reports are welcome! Please feel free to submit a Pull Request. When contributing, please ensure to:
+
+1. Follow the existing code style
+2. Add tests for new features
+3. Update the documentation
+4. Reference the relevant DGCA report numbers in your changes
 
 ## License
 
