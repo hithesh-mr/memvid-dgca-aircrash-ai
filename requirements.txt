@@ -1,2 +1,4 @@
 memvid
 PyPDF2
+openai
+python-dotenv

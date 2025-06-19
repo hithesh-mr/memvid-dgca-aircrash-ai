@@ -1,0 +1,19 @@
+{
+  "session_id": "session_20250619_192312",
+  "system_prompt": "You are a helpful AI assistant with access to a knowledge base stored in video format. \n\nWhen answering questions:\n1. Use the provided context from the knowledge base when relevant\n2. Be clear about what information comes from the knowledge base vs. your general knowledge\n3. If the context doesn't contain enough information, say so clearly\n4. Provide helpful, accurate, and concise responses\n\nThe context will be provided with each query based on semantic similarity to the user's question.",
+  "llm_provider": null,
+  "conversation": [],
+  "video_file": "output\\dir_data-sample_20250619_192156.mkv",
+  "index_file": "output\\dir_data-sample_20250619_192156_index.json",
+  "timestamp": "2025-06-19T19:25:15.422870",
+  "stats": {
+    "session_id": "session_20250619_192312",
+    "messages_exchanged": 0,
+    "llm_provider": null,
+    "llm_available": false,
+    "video_file": "output\\dir_data-sample_20250619_192156.mkv",
+    "index_file": "output\\dir_data-sample_20250619_192156_index.json",
+    "context_chunks_per_query": 5,
+    "max_history": 10
+  }
+}

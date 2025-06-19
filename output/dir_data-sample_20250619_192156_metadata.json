@@ -1,0 +1,77 @@
+{
+  "created": "2025-06-19T19:22:36.970538",
+  "source_files": [
+    "E:\\Learning\\code-git\\memvid-dgca-aircrash-ai\\notebook\\examples\\data-sample\\IMW final report.pdf"
+  ],
+  "video_path": "output\\dir_data-sample_20250619_192156.mkv",
+  "index_path": "output\\dir_data-sample_20250619_192156_index.json",
+  "config_used": {
+    "qr": {
+      "version": 35,
+      "error_correction": "M",
+      "box_size": 5,
+      "border": 3,
+      "fill_color": "black",
+      "back_color": "white"
+    },
+    "codec": "h265",
+    "chunking": {
+      "chunk_size": 1024,
+      "overlap": 32
+    },
+    "retrieval": {
+      "top_k": 5,
+      "batch_size": 100,
+      "max_workers": 4,
+      "cache_size": 1000
+    },
+    "embedding": {
+      "model": "all-MiniLM-L6-v2",
+      "dimension": 384
+    },
+    "index": {
+      "type": "Flat",
+      "nlist": 100
+    },
+    "llm": {
+      "model": "gemini-2.0-flash-exp",
+      "max_tokens": 8192,
+      "temperature": 0.1,
+      "context_window": 32000
+    },
+    "chat": {
+      "max_history": 10,
+      "context_chunks": 5
+    },
+    "performance": {
+      "prefetch_frames": 50,
+      "decode_timeout": 10
+    }
+  },
+  "processing_stats": {
+    "files_processed": 1,
+    "files_skipped": 0,
+    "processing_time_seconds": 7.269899606704712,
+    "encoding_time_seconds": 33.32392978668213,
+    "total_time_seconds": 40.59396982192993
+  },
+  "build_stats": {
+    "backend": "opencv",
+    "codec": "mp4v",
+    "total_frames": 107,
+    "video_size_mb": 1.5,
+    "fps": 15,
+    "duration_seconds": 7.133333333333334,
+    "total_chunks": 107,
+    "video_file": "output\\dir_data-sample_20250619_192156.mkv",
+    "index_file": "output\\dir_data-sample_20250619_192156_index.json",
+    "index_stats": {
+      "total_chunks": 107,
+      "total_frames": 107,
+      "index_type": "Flat",
+      "embedding_model": "all-MiniLM-L6-v2",
+      "dimension": 384,
+      "avg_chunks_per_frame": 1.0
+    }
+  }
+}

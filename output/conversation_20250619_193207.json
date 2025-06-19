@@ -1,0 +1,76 @@
+{
+  "session_id": "session_20250619_192752",
+  "system_prompt": "You are a helpful AI assistant with access to a knowledge base stored in video format. \n\nWhen answering questions:\n1. Use the provided context from the knowledge base when relevant\n2. Be clear about what information comes from the knowledge base vs. your general knowledge\n3. If the context doesn't contain enough information, say so clearly\n4. Provide helpful, accurate, and concise responses\n\nThe context will be provided with each query based on semantic similarity to the user's question.",
+  "llm_provider": "openai",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "hello"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! How can I assist you today? If you have any questions, feel free to ask!"
+    },
+    {
+      "role": "user",
+      "content": "Can you tell me exactly what is doc talking about"
+    },
+    {
+      "role": "assistant",
+      "content": "The context provided discusses an aviation incident involving the operation of an aircraft, specifically focusing on the performance and actions of the flight crew and the aircraft's systems during an approach and landing.\n\nKey points include:\n\n1. **Cockpit Communications**: The cockpit voice recorder captured discussions between the Pilot-in-Command (PIC) and the First Officer (FO) regarding the approach to Ahmedabad, including their landing configuration (CONF 3) and decisions made about the landing strategy.\n\n2. **Crew Briefing and Tasks**: There is an emphasis on the importance of a thorough approach briefing, particularly for low visibility approaches. This includes considerations of aircraft capability, crew qualifications, and task sharing between the Pilot Flying (PF) and Pilot Monitoring (PM).\n\n3. **Autoland Procedure**: The context outlines a practice related to maintaining the \"Autoland\" status of the aircraft. It notes that there was a lack of documented procedures for regularly practicing auto land maneuvers and mentions that the practice was discontinued post-incident.\n\n4. **Incident Details**: The report describes a specific incident where the aircraft touched down below the acceptable speed, leading to the tail of the aircraft contacting the ground due to an increased pitch angle during autoland.\n\n5. **Communication Dynamics**: The report also highlights communication issues between the PIC and the FO. The PIC dismissed input from the FO regarding configuration choices, which contributed to safety concerns during the incident.\n\nOverall, the document is detailing an incident investigation, focusing on procedural adherence, crew communication, and the factors leading to an unsafe landing condition. If you have specific sections or aspects you'd like more detail on, let me know!"
+    },
+    {
+      "role": "user",
+      "content": "In the last question and answer can you please tell how many tokens where used"
+    },
+    {
+      "role": "assistant",
+      "content": "The context provided does not specify any details related to token counts for questions and answers. Therefore, I cannot provide an exact number of tokens used in the last inquiry. If you have any other questions or need assistance, feel free to ask!"
+    },
+    {
+      "role": "user",
+      "content": "Do you have memory of the chat?"
+    },
+    {
+      "role": "assistant",
+      "content": "I don't have memory of past interactions, so I can't recall previous chats. Each session is treated independently, and I only have access to the context provided during this conversation. If you have questions or need assistance, feel free to ask!"
+    },
+    {
+      "role": "user",
+      "content": "cool no problem"
+    },
+    {
+      "role": "assistant",
+      "content": "It seems like you acknowledged the previous information, but there is no specific question or request in your response. If you have any further questions or if there's something specific you'd like to discuss regarding the context provided, feel free to let me know!"
+    },
+    {
+      "role": "user",
+      "content": "How are you retriving the data?"
+    },
+    {
+      "role": "assistant",
+      "content": "I retrieve data based on the context provided during this chat. The information is extracted from the specified contexts, such as the investigation report, flight recorder details, and meteorological information. If you have specific queries or need details from the contexts, just let me know, and I'll assist you accordingly!"
+    },
+    {
+      "role": "user",
+      "content": "great thank you let end the conversation"
+    },
+    {
+      "role": "assistant",
+      "content": "You're welcome! If you ever have more questions or need assistance in the future, feel free to reach out. Have a great day!"
+    }
+  ],
+  "video_file": "output\\dir_data-sample_20250619_192640.mkv",
+  "index_file": "output\\dir_data-sample_20250619_192640_index.json",
+  "timestamp": "2025-06-19T19:32:07.041428",
+  "stats": {
+    "session_id": "session_20250619_192752",
+    "messages_exchanged": 14,
+    "llm_provider": "openai",
+    "llm_available": true,
+    "video_file": "output\\dir_data-sample_20250619_192640.mkv",
+    "index_file": "output\\dir_data-sample_20250619_192640_index.json",
+    "context_chunks_per_query": 5,
+    "max_history": 10
+  }
+}

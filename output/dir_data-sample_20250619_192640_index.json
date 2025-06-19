@@ -1,0 +1,1121 @@
+{
+  "metadata": [
+    {
+      "id": 0,
+      "text": "INVESTIGATION REPORT ON TAIL STRIKE INCIDENT \nTO M/s INTERGLOBE AVIATION LTD.  \nAIRBUS A 321neo AIRCRAFT, VT-IMW AT AHMEDABAD \nON 15.06.2023  \n \n \n \n \n \n \n \n \n \n \n \nGOVERNMENT OF INDIA \nDIRECTORATE GENERAL OF CIVIL AVIATION \n \n\n\n \n ii  \n \n \n \n \n \nFOREWORD \n  \n \n In accordance with the Aircraft (Investigation of Accidents & Incidents) Rules 2017, \nthe sole objective of this investigation is to prevent aviation incidents and accidents in the \nfuture. It is not the purpose of the investigation to apportion blame or liability.  The \ninvestigation conducted in accordance with the provisions of the above said rules shall be \nseparate from any judicial or administrative proceedings to apportion blame or liability. \n \n \n This report has been prepared based upon the evidences collected during the \ninvestigation and opinions obtained from the experts. Consequently, the use of this report for \nany purpose other than for the prevention of future incidents /accidents, could lead to \nerroneous interpretations.",
+      "frame": 0,
+      "length": 1011
+    },
+    {
+      "id": 1,
+      "text": "d to \nerroneous interpretations. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\n \n iii List of abbreviations used in the report \n1.  A/THR Auto Thrust  \n2.  ADIRS Air Data Inertial Reference System  \n3.  AME Aircraft Maintenance Engineer \n4.  AP Auto Pilot \n5.  ARC Airworthiness Review Certificate \n6.  ATIS Automatic terminal information service \n7.  ATPL Airline Transport Pilot License \n8.  ATC Air Traffic Control \n9.  BITE Built-In Test Equipment \n10.  CSN Cycles Since New \n11.  CVR Cockpit Voice Recorder \n12.  CRM Crew Resource Management \n13.  DGCA Directorate General of Civil Aviation  \n14.  ECAM Electronic Centralized Aircraft Monitoring \n15.  EFB Electronic Flight Bag \n16.  FAC Flight Augmentation Computer \n17.  FCOM Flight Crew Operations Manual \n18.  FD Flight Director \n19.  FDR Flight Data Recorder \n20.  FC Flight Cycle \n21.  FCTM Flight Crew Techniques Manual \n22.  FH Flight Hours \n\n \n iv 23.  FMA Flight Mode Annunciator \n24.  FMC Flight Management Computer \n25.  FMS Flight Management System \n26.",
+      "frame": 1,
+      "length": 1009
+    },
+    {
+      "id": 2,
+      "text": "MS Flight Management System \n26.  FMGC Flight Management and Guidance Computer \n27.  FMGS Flight Management and Guidance System \n28.  FPLN Flight Plan \n29.  FR Frame \n30.  FRB Flight Report Book \n31.  FRTOL Flight Radio Telephone Operator\u2019s Licence  \n32.  FWD Forward \n33.  GPWS Ground Proximity Warning System \n34.  GS Glide Slope \n35.  IAS Indicated Air Speed \n36.  IFR Instrument Flight Rules \n37.  ILS Instrument Landing System  \n38.  IR Instrument Rating  \n39.  IST Indian Standard Time \n40.  LH Left Hand \n41.  LOC Localizer \n42.  LVTO Low visibility take-off \n43.  LVO Low Visibility Operations \n44.  LVP Low Visibility Procedures \n45.  MCC Maintenance Control Centre \n\n \n v 46.  MCDU Multipurpose Control and Display Unit  \n47.  MLG Main Landing Gear \n48.  MSN Manufacturer Serial Number \n49.  OCC Operations Control Centre \n50.  PERF Performance \n51.  PIC Pilot In-Command \n52.  PF Pilot Flying \n53.  PFD Primary Flight Display \n54.  QRH Quick Reference Handbook  \n55.  PM Pilot Monitoring \n56.",
+      "frame": 2,
+      "length": 1003
+    },
+    {
+      "id": 3,
+      "text": "55.  PM Pilot Monitoring \n56.  RA Radio Altitude \n57.  RH Right Hand \n58.  RVR Runway Visual Range \n59.  RWY Runway \n60.  SOP Standard Operating Procedure \n61.  STGR Stringer \n62.  TAF Terminal Area Forecast \n63.  TOGA Takeoff - Go-Around  \n64.  TSN Time Since New \n65.  UTC Coordinated Universal Time \n66.  V app Approach Speed \n67.  VFE Maximum Speed for each Flap configuration \n68.  VFR Visual Flight Rules \n\n \n vi  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n 69.  VLS Lowest Selectable Speed \n70.  VMO/MMO Maximum Operating Speed/ Mach Maximum Operational \n71.  ZFTT Zero Flight Time Training \n\n \n vii INDEX: \n \n  Contents Page No \n                     Synopsis 02 \n1 Factual information 03 \n1.1 History of the Flight 03 \n1.2 Injuries to Persons 03 \n1.3 Damage to Aircraft 04 \n1.4 Other Damage 05 \n1.5 Personnel Information 05 \n1.6 Aircraft Information 06 \n1.7 Meteorological Information 08 \n1.8 Aids to Navigation 09  \n1.9 Communication 10  \n1.10 Aerodrome Information 10  \n1.11 Flight Recorders 10  \n1.",
+      "frame": 3,
+      "length": 1019
+    },
+    {
+      "id": 4,
+      "text": "1.11 Flight Recorders 10  \n1.12 Wreckage and Impact Information 13 \n1.13 Medical and Pathological Information 14  \n1.14 Fire 14  \n1.15 Survival Aspects 14  \n1.16 Tests and Research 14  \n1.17 Organizational & Management Information 14  \n1.18 Additional Information 21 \n1.19 Useful or effective investigation techniques 31 \n\n \n viii  \n \n \n Contents Page No \n2 Analysis 32 \n2.1 Serviceability of the aircraft 32 \n2.2 Weather aspect: 33 \n2.3 Flight Crew Training and Qualifications 33 \n2.4 Operational handling: 35 \n2.5 Events leading to the incident: 36 \n  \n3 Conclusions 39 \n3.1 Findings 39 \n3.2 Probable Cause 41 \n  \n4 Safety Recommendations 41 \n\nInvestigation report: VT-IMW 15.06.2023                                                                                                     Page 1 \n  \nInvestigation Report on Tail Strike incident to  \nM/s InterGlobe Aviation Ltd. Airbus A321neo aircraft VT-IMW at \nAhmedabad on 15.06.2023  \n \n1.",
+      "frame": 4,
+      "length": 941
+    },
+    {
+      "id": 5,
+      "text": "Ahmedabad on 15.06.2023  \n \n1. Aircraft  \nType   : Airbus A321-252 NX \nNationality  : INDIAN \nRegistration  : VT-IMW \n2. Owner/Lessor   : CALF(A4) AVIATION IRELAND DAC, IRELAND \nOperator/Lessee   : M/s INTERGLOBE AVIATION LIMITED \n3. Pilot-in-Command  : ATPL Holder \nExtent of injuries  : Nil \nCo-Pilot/First Officer  : ATPL Holder \nExtent of injuries  : Nil \n4. Date of incident  : 15.06.2023 \nTime of incident  : 08:37 UTC \n5. Place of Incident  : Ahmedabad Airport (VAAH) \n6. Co-ordinates of incident site : 23\u00b005'13.5\"N; 72\u00b038'42.0\"E \n7. Last point of Departure  : Bengaluru Airport (VOBL) \n \n8. Intended place of Landing : Ahmedabad Airport (VAAH) \n \n9. No. of passengers on board : 215 \n10. Type of operation  : Scheduled Commercial Air Transport Operation \n \n11. Phase of operation  : Landing \n12. Type of Incident  : Abnormal Runway Contact \n \n(All timings in the report are in UTC unless or otherwise specified) \n \n \n \n \n \n \n \n \n\nInvestigation report: VT-IMW 15.06.",
+      "frame": 5,
+      "length": 974
+    },
+    {
+      "id": 6,
+      "text": "estigation report: VT-IMW 15.06.2023                                                                                                     Page 2 \n Synopsis:- \n \nOn 15.06.2023 M/s InterGlobe Aviation Ltd. (IndiGo) Airbus A321-252NX(neo) \naircraft VT-IMW, operated a scheduled passenger flight 6E-6595 from Bengaluru to \nAhmedabad. The PIC was the Pilot Flying and the First Officer was the Pilot Monitoring for the \nsubject flight sector.  \n \nThe Secondary flight plan was activated during the descent phase and FMS was prepared with \nlanding configuration as CONF FULL. However CONF 3 was selected during approach. An \nILS approach was carried out for RWY 23 at Ahmedabad. PIC made a decision to perform a \n\u2018Practice Autoland\u2019 duri ng the final approach. The First officer was not qualified for CAT II/III \noperations. ATC informed the existing wind conditions to the crew, which were beyond the \nAutoland limitations for the aircraft. However, an Autoland was carried out.",
+      "frame": 6,
+      "length": 972
+    },
+    {
+      "id": 7,
+      "text": "er, an Autoland was carried out. In accordance with \nthe CONF FULL configured in FMS, the VAPP computed by FMS resulted in target speed \nlower than VLS which then contributed to a touch down below VLS-15kt. The aircraft touched \ndown with pitch attitude of 10\u00b0 which exceeded the geometric limitation w.r.t ground clearance \nand the tail fuselage section made ground contact.  \n \nDGCA-India, vide Order No DGCA-15019(01)/02/2023-DAS dated 21.06.2023 instituted \ninvestigation of the incident under Rule 13 (1) of Aircraft (Investigation of Accidents and \nIncidents), Rules 2017 by appointing an Investigation-In-Charge along with a member to \nassociate in the investigation. \n \nThe probable cause of the incident was the aircraft speed reduction to the extent of VLS-15kt, \nthe low energy state of the aircraft resulted in an increase of pitch beyond limits during the \nautoland and the ensuing contact of the aircraft tail section with ground during touchdown.",
+      "frame": 7,
+      "length": 961
+    },
+    {
+      "id": 8,
+      "text": "on with ground during touchdown.  \n \nThe following factors led to the incident:- \n\uf0b7 Non-adherence to SOP (Standard Operating Procedures) during FMS configuration and \nduring activation of the Secondary Flight Plan, i.e., FMS active and secondary FLPNs \nmishandling. \n\uf0b7 Flaps CONF 3 selection made during approach against a planned approach with \nCONFIG FULL in the FMS performance page, leading to a lower target speed \ncomputation. \n\uf0b7 PIC\u2019s non -compliance with the SOP for an Auto Land, including wind limitations and \nflight crew qualifications. \n\uf0b7 Lack of effective CRM between the operating crew members. \n \n \n \n \n \n \n \n \n\nInvestigation report: VT-IMW 15.06.2023                                                                                                     Page 3 \n 1. Factual Information \n1.1History of flight: \nM/s InterGlobe Aviation Ltd. (IndiGo) Airbus A321-252NX(neo) aircraft VT-IMW operated a \nscheduled passenger flight no. 6E-6595 from Bengaluru to Ahmedabad on 15.06.2023.",
+      "frame": 8,
+      "length": 994
+    },
+    {
+      "id": 9,
+      "text": "luru to Ahmedabad on 15.06.2023. \nThe subject flight sector was the first sector operated by the crew on 15.06.2023. The PIC was \nthe Pilot Flying and the First Officer was the Pilot Monitoring for the sector from Bengaluru to \nAhmedabad.  The crew members who operated the flight underwent a Breath-analyser test for \nalcohol consumption at Bengaluru prior to departure to Ahmedabad and the test result was \n\u2018Negative\u2019. Transit inspection of the aircraft was performed by AME before the flight from \nBengaluru - Ahmedabad (6E-6595) on 15.06.2023. \nThere were a total of 215 passengers and 07 crew members on-board the aircraft at the time of \nthe incident. The aircraft's chocks OFF time from Bengaluru was 06:35 UTC and it got airborne \nat 06:50 UTC. \n \nThe take-off from Bengaluru was performed by the PIC & the flight from take-off till top of \ndescent was uneventful.",
+      "frame": 9,
+      "length": 872
+    },
+    {
+      "id": 10,
+      "text": "top of \ndescent was uneventful. During descent the PIC, who was the PF carried out briefing for the \nplanned arrival to Ahmedabad via APANO 1A arrival ILS approach RWY 23 based on ATC \nclearance. A Flap 3/CONF 3 approach was decided after discussion among the cockpit crew \nwhich also included the Go-around plan. The briefing was carried out for an ILS Z approach \nRWY23 with CONF 3. The aircraft was configured for the planned configuration of CONF 3 \nand was stabilised for the approach. Runway in use at the time of approach was ILS RWY23.  \n \nDuring the approach the crew observed weather approaching from the North West and they \ninformed the ATC of the approaching weather. During approach strong winds of the order of \n30-35 kt were experienced during final turn and approach. On finals ATC reported wind gusts \nup to 20 to 25 kt. PIC reported that visibility was good but approach was \u2018bumpy\u2019 due winds; \nas the aircraft was Auto land current he decided to carry out auto land.",
+      "frame": 10,
+      "length": 986
+    },
+    {
+      "id": 11,
+      "text": "decided to carry out auto land. During the ILS approach \nthe PIC informed TWR that they were carrying out a \u2018Practice AUTOLAND\u2019. Decision to \nperform an Autoland was made by the PF(PIC)during the final approach segment. \n \nAfter flare- out, the landing was perceived as \u2018hard\u2019 by the crew. Auto pilot was disconnected \npost landing during landing roll. On reaching bay and switching off Engines, AME observed the \ntail strike and informed the crew.  \n1.2 Injuries to persons: \nInjuries Crew Passengers Others \nFatal Nil Nil Nil \nSerious Nil Nil Nil \nMinor/None Nil / 07 (02 Cockpit crew and \n05 Cabin Crew) Nil/ 215 \n \n \n\nInvestigation report: VT-IMW 15.06.2023                                                                                                     Page 4 \n 1.3 Damage to aircraft: \nExternal damage: \n1. Skin damage noted between FR(Frame) 62 and FR 69 & between STGR(Stringer) 42 \nLH TO 41 RH. \n2. Total length of Damage: 3130 mm. \n3. Damage starts 305 mm aft of FR 62 & extended to 160 mm aft of FR 68. \n4.",
+      "frame": 11,
+      "length": 1021
+    },
+    {
+      "id": 12,
+      "text": "nded to 160 mm aft of FR 68. \n4. Maximum width of damage (at FR 67 & BTW STGR 42 LH TO 41 RH): 420 MM \nDamages on RH Panel # \nDrain mast installed on the skin was found bent by 10 MM and rubbed however no abnormalities \nwere found on Drain mast support structure and its surrounding area. \nInternal damage: \n1. At FR 63 & STGR 44 to 43 RH found butt strap bent inwards. \n2. Intercostal web attaching top of FR 64 to FR 65 & STGR 44 found deformed. \n3. At FWD of FR 64 between STGR 44 to 43 RH, butt strap bend inward and found sealant \ncrack on clip joining FR 64 & STGR 43 RH. At AFT of FR 64, butt strap bend inward \nbetween 44 & 43 RH. \n4. At FWD of FR 65, clip between FR 65 & STGR 44 found bent. Vertical strut attaching \nbottom of FR 65 & top of FR 65, found bend from middle. At FWD of FR 65, butt strap \nbend between 44 & 43 LH and also between STGR 44 & 43 RH. Sealant crack between \nSTGR 43 RH & 42 RH. Sealant crack at STGR 43 LH and attaching clip at FR 65 \n(FWD).",
+      "frame": 12,
+      "length": 976
+    },
+    {
+      "id": 13,
+      "text": "attaching clip at FR 65 \n(FWD). At AFT of FR 65, between STGR 44 & 43 RH, puncture observed. \n5. Butt strap bend inward & sealant crack at FR 66 between STGR 43 RH & 44. At AFT \nof FR 66, between STGR 44 & 43 RH, puncture observed & butt strap bend inward. At \nFR 66, between STGR 44 & STGR 43 LH found sealant crack. \n6. At FR 67, STGR 43 RH & STGR 44, found butt strap bent inwards and also sealant \ncrack between 44 & 43 LH. At FR 67, sealant crack at butt strap between STGR 43 RH \n& STGR 42 RH. \n7. At FR 68, between 44 & 43 LH as well as between 42 LH & 43 LH, found sealant crack \nat butt strap. \n \n\n\nInvestigation report: VT-IMW 15.06.2023                                                                                                     Page 5 \n  \n \n1.4 Other damages: \nNil \n1.5 Personnel information: \nThe details of the licences and ratings, of the Cockpit crew who operated the incident sector are \nas detailed below:- \n \nFlight Crew details: \n PIC First Officer \na) Type of license  ATPL holder ATPL holder",
+      "frame": 13,
+      "length": 1021
+    },
+    {
+      "id": 14,
+      "text": "cense  ATPL holder ATPL holder \nb) Valid up-to  07/02/2027 02/08/2027 \nc) Date of Initial issue  08/02/2007 03/08/2017 \nd) Class of license  AEROPLANE AEROPLANE \ne) Category of license  MULTI ENGINE  MULTI ENGINE  \nf) Age  63 years 50 years \ng) Aircraft Ratings  PA34,A320 P68,A320 \nh) Date of Endorsement as PIC (on type) 18/01/2011 NA \ni) Date of last Medical Exam  17/01/2023  18/04/2023 \nj) Medical Exam validity  21/07/2023 12/05/2024 \nk) FRTOL Valid up to  07/02/2027 01/01/2027 \nl) Instrument Rating  16/03/2023 08/03/2023 \nm) Date of Last IR check  16/03/2023 08/03/2023 \nn) Date of last Proficiency Check  16/03/2023 08/03/2023 \no) Total flying experience  15436:08 3989:02 \np) Experience on Type  11601:08 1263:17 \n\n\nInvestigation report: VT-IMW 15.06.2023                                                                                                     Page 6 \n Flight Crew details (cont.",
+      "frame": 14,
+      "length": 902
+    },
+    {
+      "id": 15,
+      "text": "e 6 \n Flight Crew details (cont.):   \n PIC First Officer \nq) Experience as PIC on Type  9754:47 NA \nr) Last technical refresher  25/07/2022 22/11/2022 \ns) Details of any approval held \nLTC/instructor/ \nexaminer held by the pilot. NA NA \nt) Last flown on Type(date)  15/06/2023 15/06/2023 \nu) Total flying experience in last \n180 days (prior to incident) 417.38 315.19 \nv) Total flying experience in last \n30 days (prior to incident) 85.35 38.55 \nw) Total flying experience in last \n7 days (prior to incident) 19.56 10.17 \nx) Total flying experience in last \n24 hrs. (prior to incident) 08.51 08.51 \ny) Rest before duty  13.44 13.44 \n \n\u25cf During the last simulator training session of the PIC in March 2023, six(06) landings were \nperformed w.r.t CAT II/III operations which complied with the recency requirements for \nCAT II/III operations. \n\u25cf PIC Incapacitation and AUTOLAND topics were included in \u2018ZFTT Simulator Training\u2019 \nduring Initial type rating course of First Officer in January 2020.",
+      "frame": 15,
+      "length": 993
+    },
+    {
+      "id": 16,
+      "text": "f First Officer in January 2020. However he was not \ntrained and qualified for CAT II/ III operations. \n1.6 Aircraft information: \nAirbus A321-252NX is a twin engine aircraft installed with CFM LEAP-1A30 engines \nmanufactured by CFM. The aircraft is certified in Normal category, for day and night operation \nunder VFR & IFR.  \nPrior to departure for the incident flight the aircraft weight and balance was within the operating \nlimits. No relevant MEL was active on VT-IMW as on the date of incident.  \nThe last practice Autoland for VT-IMW prior to the incident was carried out on 04.06.2023 and \nAutoland Satisfactory entry was made in the FRB/ Technical log, there was no message sent \nfrom OCC to the flight crew on 04.06.2023 for performing a \u2018Practice Auto land\u2019.  \nAircraft data:- \nManufacturer AIRBUS \nType A321-252NX \nOwner CALF(A4) AVIATION IRELAND \nDAC \nOperator INTERGLOBE AVIATION LIMITED \n\nInvestigation report: VT-IMW 15.06.",
+      "frame": 16,
+      "length": 940
+    },
+    {
+      "id": 17,
+      "text": "estigation report: VT-IMW 15.06.2023                                                                                                     Page 7 \n Aircraft data:-   \nManufacturer Serial no. 10882 \nYear of Manufacture 2022 \nCertificate of Airworthiness  7609 \nIssue date:  04.11.2022 \nAirworthiness Review Certificate  7609 \nIssue date : 04.11.2022 \nValidity: 03.11.2023 \nCategory NORMAL \nCertificate of Registration and validity 5519/2 \nIssue date: 01.11.2022 (entered in the \nregister of India with effect from \n28.10.2022) \nValidity: 26.10.2030 \n \nMinimum Crew Required TWO \nMaximum All Up weight 89000 kg \nLast Major inspection 2000 FH / 1400 FC / 8 MONTH \nINSPECTION SCHEDULE  \nLast inspection WEEKLY (7 DAYS/120 FH) \nINSPECTION  \nAirframe Hrs since new 2389:48hrs \nAirframe hours since last ARC 2378:19hrs \n \nEngine data:- Engine#1(LH) Engine#2(RH) \nManufacturer CFM CFM \nType LEAP-1A30 LEAP-1A30 \nEngine Serial no.",
+      "frame": 17,
+      "length": 919
+    },
+    {
+      "id": 18,
+      "text": "A30 LEAP-1A30 \nEngine Serial no. 59B109 59B112 \nTime Since new(TSN) 2389:48hrs 2389:48hrs \nCycles since new(CSN) 1590 cycles 1590 cycles \nTime since last shop visit(TSV) NA NA \nCycle since last shop visit(CSV) NA NA \nLast Major Inspection Carried out NA NA \nLast inspection Carried out PERFORMED WEEKLY (7 DAYS/120 \nFH) INSPECTION \n\nInvestigation report: VT-IMW 15.06.2023                                                                                                     Page 8 \n  \n \nGeneral Dimensions of A321-251 \n \n \n1.7 Meteorological information: \nMETAR information at Ahmedabad is as below: \n \nVAAH 150900Z  20018G28KT 4000 DRDU SCT018 SCT025 33/23 Q1001 NOSIG=   \nVAAH 150830Z  19020G30KT 4000 DRDU SCT018 SCT025 34/23 Q1001 TEMPO 3000 \nRA= \n[Winds 190\u00b0 20kt Gust 30kt, Visibility 4000m, Weather Low Drifting Dust, Cloud: Scattered at \n1800ft  and 2500ft, Temperature 34 \u00b0C Dew point 23 \u00b0C, QNH 1001hPa, QFE 0995 hPa.",
+      "frame": 18,
+      "length": 926
+    },
+    {
+      "id": 19,
+      "text": "3 \u00b0C, QNH 1001hPa, QFE 0995 hPa. \nTEMPO Visibility 3000m in Rain] \nVAAH 150800Z  20013G23KT 5000 FU SCT018 SCT025 35/23 Q1002 NOSIG=    \nVAAH 150730Z 18010G22KT 5000 FU FEW015 SCT025 34/23 Q1002 NOSIG=  \n \n \n\n\nInvestigation report: VT-IMW 15.06.2023                                                                                                     Page 9 \n TAF VAAH (In Pre-flight folder handed over to crew prior to the departure from Bengaluru) \nARRIVAL \nTAF VAAH 142300Z 1500/1606 18012KT 3000 HZ SCT020 FEW025TCU BKN080 BECMG \n1501/1503 21014KT -RA HZ TEMPO 1504/1512 19018G28KT 2000 .TSRA SCT018 \nFEW030CB BKN080 BECMG 1504/1506 18012KT 5000 DZ BECMG 1513/1515 4000 FU \nFEW020 FEW025TCU SCT080 BECMG 1516/1520 21008KT BECMG 1522/1524 3000 DZ \nHZ BECMG 1601/1603 21012KT .RA HZ SCT020 FEW025TCU BKN080 BECMG \n1604/1606 4000 FU \nTAF VAAH 150200Z 1503/1512 21014KT 3000 -RA HZ SCT020 FEW025TCU BKN080 \nBECMG 1504/1506 18012KT 5000 DZ TEMPO 1504/1512 19018G28KT 2000 TSRA SCT018 \nFEW030CB BKN080 \n \nFurther based on India",
+      "frame": 19,
+      "length": 1024
+    },
+    {
+      "id": 20,
+      "text": "BKN080 \n \nFurther based on India Meteorological Department data: \nThe Very Severe Cyclonic Storm \u201cBiparjoy\u201d (pronounced as \u201cBiporjoy\u201d) over Northeast \nArabian Sea moved nearly eastward with a speed of 12 kmph during 6-hours since 1730IST and \nlay centered at 1730 IST of 15.06.2023 over the same region near latitude 22.9\u00b0N and longitude \n68.0\u00b0E, about 70 km west-southwest of Jakhau Port (Gujarat), 130 km west-northwest of \nDevbhumi Dwarka, 100 km west-southwest of Naliya and 240 km south-southeast of Karachi \n(Pakistan). \nThe landfall process commenced around 1830 hours IST of 15.06.2023 and continued till \nmidnight of 15.06.2023. \n \n1.8 Aids of navigation: \nAll aids to navigation were serviceable. No un-serviceability was reported. \nVAAH - RADIO NAVIGATION AND LANDING AIDS \nType of aids, magnetic variation and type of \nsupported operation for ILS/ MLS, basic \nGNSS, SBAS and GBAS, and for \nVOR/ILS/MLS station used for technical \nlineup of the aid  Identification Hours of operation, as \nappropriate;  \nLOC 23 \nC",
+      "frame": 20,
+      "length": 1024
+    },
+    {
+      "id": 21,
+      "text": "on, as \nappropriate;  \nLOC 23 \nCAT I IAHD H24 \nGP 23 --- H24 \nDME ILS 23 IAHD H24 \nDVOR/DME AAE H24 \nL AH H24 \n \n \n \n\nInvestigation report: VT-IMW 15.06.2023                                                                                                     Page 10 \n 1.9 Communication: \n \nTwo way radio communications were available between aircraft and ATC. Neither the crew nor \ndid the ATC unit report any un-serviceability. \n1.10 Aerodrome information: \nSardar Vallabh Bhai Patel International Airport is located in Ahmedabad city in the state of \nGujarat. The runway details are as below: \n DECLARED DISTANCES  \nRWY \nDesignator  Take-off run \navailable  \nTORA \n(M) Take-off \ndistance \navailable  \nTODA \n(M) Accelerate \ndistance \navailable  \nASDA \n(M) Landing distance \navailable \nLDA \n(M) \n05 3505 3505 3505 3505 \n23 3505 3505 3505 3505 \n1.11Flight recorders: \n1.11.",
+      "frame": 21,
+      "length": 872
+    },
+    {
+      "id": 22,
+      "text": "05 \n1.11Flight recorders: \n1.11.1Cockpit Voice Recorder:- \nThe aircraft was installed with a Solid State Cockpit Voice Recorder capable of recording \ntwenty five (25) hours of cockpit communications. Relative time mentioned is w.r.t the subject \nsector. The recorded data was downloaded and following salient observations are made:- \n1. The PIC informed the First Officer before top of descent (relative time 01:22) that he is \nconfiguring the FMS for arrival on secondary flight plan and not in primary and First Officer \nreplied \u2018right\u2019.  \n2. Crew carried out arrival briefing for Ahmedabad based on available information including \nthe actions in case of a go-around. During the discussion the PIC informed he is planning a \nCONF 3 landing and First officer replied that runway is long. \n3. Crew discussed that V app was 146kt and that IDLE reverse were to be used for landing. \n4.",
+      "frame": 22,
+      "length": 884
+    },
+    {
+      "id": 23,
+      "text": "were to be used for landing. \n4. After coming in contact with Ahmedabad the crew changed over to Ahmedabad, however \ncrew were unable to contact Ahmedabad again when released by Mumbai (approx. 34 \nminutes to touchdown). The First Officer again requested Mumbai for Ahmedabad \nfrequency and PIC took over the communications. Then PIC was able to contact \nAhmedabad on frequency given by Mumbai.  \n5. Once in contact with Ahmedabad control the aircraft was cleared via APANO 1A arrival \nRWY23 and to expect radar vector ILS approach RWY 23. \n6. Crew carried out approach checklist at this time QNH was discussed as 1002 hPa and \nMinimum was discussed as 430ft. \n7. A few seconds later the QNH was reported by ATC as 1001 hPa and PIC discussed as to \nQNH is dropping. \n8. The PIC is observed to be concerned about the weather and kept informing the First Officer \nabout the weather at Ahmedabad. \n\nInvestigation report: VT-IMW 15.06.",
+      "frame": 23,
+      "length": 931
+    },
+    {
+      "id": 24,
+      "text": "estigation report: VT-IMW 15.06.2023                                                                                                     Page 11 \n 9. At relative time 01:58:17 the aircraft was advised to contact Ahmedabad tower at 10 miles \nfrom touchdown. \n10. The aircraft then contacted tower at about nine miles to touchdown and Ahmedabad tower \ninformed IFLY6595 that the Winds were 190\u00b0 26 kt gusting upto 29kt. \n11. PIC enquired with the First Officer what wind information was given by the ATC. First \nOfficer reply is blocked and the available information is that winds were 15 gusting. \n12. Landing gear was extended between 01:58:54 and 01:58:58 relative time. \n13. At relative time 01:59:50, the ATC Tower cleared IFLY6595 for landing on RWY23. The \ntower reported winds at this time were 190\u00b0 20kt gusting up to 25kts.  \n14. Flaps 3 were selected at relative time 01:59:58 and landing checklist was announced by \nFirst Officer followed by \u2018ECAM memo\u2019, PIC announced \u2018Landing no blue\u2019.",
+      "frame": 24,
+      "length": 997
+    },
+    {
+      "id": 25,
+      "text": "PIC announced \u2018Landing no blue\u2019. Landing \nchecklist was completed. \nThe PIC is observed to be again discussing approaching weather with the First Officer and \ninformed the Tower controller to expedite landing of other aircraft as weather was \napproaching and likely to hit the area soon. \n15. At relative time 02:00:50 the PIC informed the First Officer that he is thinking of putting \n\u2018No DH\u2019, which would be the safest thing to do.  \n16. After the 1000ft autocall, the First Officer queried with the PIC regarding Configuration for \nlanding at relative time 02:00:50. The PIC immediately replied that it is CONF 3 and it is \nthe best for a go-around. \n17. At 02:01:10 relative time PIC informed the First Officer to call 430 \u2018minimum\u2019, so that PIC \nwill disconnect the AutoPilot. \n18. The PIC made a call to the ATC-Tower that \u2018Carrying out practice Auto land\u2019 at relative \ntime 02:01:25. The controller acknowledged the call and advised the crew that sensitive \nareas are not protected. \n19.",
+      "frame": 25,
+      "length": 994
+    },
+    {
+      "id": 26,
+      "text": "e \nareas are not protected. \n19. \u2018400\u2019 autocall is recorded at 02:01:33 relative time.  \n20. PIC announced \u2018Land green\u2019 at 02:01:48 relative time and advised First Officer for \u2018Low \nbrake\u2019 as they are doing an autoland they have to select low brakes also.  \n21. The sound of ground contact is heard at 02:02:27 relative time following which the PIC \nannounced Reversers and advised the First Officer to announce further checklist items.  \n22. During taxi at relative time 02:04:34 the PIC discussed with the First Officer that the winds \nwere really gusty and that the aircraft was shaking even with automation. He added that \nimagine in such scenario hand flying is not easy and that the best thing to do is use \nautomation. \n1.11.2 Flight Data Recorder:- \nThe aircraft was installed with a Solid State Flight Data Recorder. The recording of the unit \nwas retrieved and major events are as interpreted below:- \n1. The aircraft took-off from Bengaluru at 06:50 UTC. \n2. The PIC was the PF at the time of take-off. \n3.",
+      "frame": 26,
+      "length": 1017
+    },
+    {
+      "id": 27,
+      "text": "PF at the time of take-off. \n3. The aircraft reached the cruise altitude of 36000ft by 07:14 UTC. \n4. After 08:01:39 UTC the aircraft started descent. \n5. Auto Pilot #1 was engaged from take-off and remained engaged for the flight duration till \nlanding. \n6. Flap 1 was selected at 08:23:51UTC. \n7. By approx. 08:30UTC at 4800ft baro altitude, the aircraft was aligned on runway heading. \n\nInvestigation report: VT-IMW 15.06.2023                                                                                                     Page 12 \n 8. Flaps 2 were selected and the configuration was Flaps 2 at 08:31:45 UTC. VLS was revised \nto 140kt, which remained so till landing. \n9. At 08:33:56UTC, passing 2477ft radio altitude the aircraft speed was 176kt IAS/ 70kt \nGround speed. Speed mode selection was changed to MANAGED mode and the Vapp \nbecame 136kt. \n10. Flaps 3 configuration was achieved by 08:35:07UTC. \n11.",
+      "frame": 27,
+      "length": 916
+    },
+    {
+      "id": 28,
+      "text": "as achieved by 08:35:07UTC. \n11. The Autopilot #2 was engaged (in addition to already engaged Auto Pilot #1) at 08:27:34 \nUTC and 6064ft baro altitude in approach and it remained selected till rollout.  \n12. Flaps selection recorded value is 28 during final approach at 08:35:07 UTC. \n13. At 1000 ft. aircraft was configured for landing and was on profile, speed trend was \nfluctuating.  \n14. At approx. 08:36:25 UTC (CVR relative time 02:01:25) aircraft was passing 700ft radio \naltitude on approach. \n15. Passing 700ft in approach the IAS was 151kt and ground speed was 133 kt. \n16. Below 700ft radio altitude, the Vapp dropped below VLS (140). The ground speed was \nabout 122-127kt.  \n17. The wind direction was approximately 180\u00b0 \u00b110\u00b0 during final approach below 1000 to 100ft \nradio altitude. Winds were variable below 1000 feet quartering left headwind varying \nbetween 20 to 35kt. \n18. Passing 60ft radio altitude the aircraft speed was 144kt IAS and 124kt ground speed. \n19.",
+      "frame": 28,
+      "length": 982
+    },
+    {
+      "id": 29,
+      "text": "IAS and 124kt ground speed. \n19. There was a significant change in winds below 60ft radio altitude from approx. 28kt to 11kt \nat touchdown and change in direction from about 175\u00b0 to about 130\u00b0. \n20. The aircraft pitch was about 4\u00b0-5\u00b0 during final approach below 500ft radio altitude. Below \n50ft radio altitude the aircraft pitch started increasing from 4.7\u00b0 and reached a maximum of \n10\u00ba at touchdown of main wheels which was at 08:37:26UTC. \nThe aircraft vertical speed was 128ft/min at touchdown and vertical acceleration of 1.85g.  \nThe aircraft speed, IAS at touchdown was 125kt and ground speed was 124 kt.  \n21. Upon touchdown the TLA #1 and #2 were progressively retarded to reverse thrust. \n \n \nRadio altitude and Pitch Vs Time (UTC) \n \n024681012\n0100200300400500600700800\n08:36:24\n08:36:27\n08:36:30\n08:36:33\n08:36:36\n08:36:39\n08:36:42\n08:36:45\n08:36:48\n08:36:51\n08:36:54\n08:36:57\n08:37:00\n08:37:03\n08:37:06\n08:37:09\n08:37:12\n08:37:15\n08:37:18\n08:37:21\n08:37:24\n08:37:27\nRadio Altitude Pitch\n\nInvestigation report:",
+      "frame": 29,
+      "length": 1023
+    },
+    {
+      "id": 30,
+      "text": "de Pitch\n\nInvestigation report: VT-IMW 15.06.2023                                                                                                     Page 13 \n  \nRadio altitude, Indicated Air Speed, Ground Speed and VLS Vs Time (UTC) \n1.12 Wreckage and impact information: \n \nVT-IMW landed at Ahmedabad on Runway 23 at 0837 UTC (1407 IST) and was parked at \nStand 09 at 0842 UTC (1412 IST).  During runway inspection at around 1000 UTC (1530 IST), \noperations vehicle observed abnormal abrasion on runway pavement measuring approx. 9m. \nPaint marks/ abrasion were located at approx. 220m from beginning of RWY23.  \nLater while inspecting all the parked aircraft on apron observed aft belly portion of fuselage and \ndrain mast abraded in respect of VT-IMW aircraft parked at Stand 9. \n \n \nPhotograph of VAAH (Ahmedabad) - RWY 23, location of VT-IMW tail ground contact \n \n \n020406080100120140160180\n020040060080010001200\n08:35:59\n08:36:03\n08:36:07\n08:36:11\n08:36:15\n08:36:19\n08:36:23\n08:36:27\n08:36:31\n08:36:35\n08:36:39\n08:36",
+      "frame": 30,
+      "length": 1024
+    },
+    {
+      "id": 31,
+      "text": "08:36:31\n08:36:35\n08:36:39\n08:36:43\n08:36:47\n08:36:51\n08:36:55\n08:36:59\n08:37:03\n08:37:07\n08:37:11\n08:37:15\n08:37:19\n08:37:23\n08:37:27\nRadio Altitude Indicated Airspeed Ground Speed VLS\n\n\nInvestigation report: VT-IMW 15.06.2023                                                                                                     Page 14 \n  \nThe location of marks/abrasion on Grid map of VAAH (Ahmedabad) [Not to scale] \n1.13 Medical and pathological information: \nNot applicable. \n1.14 Fire: \nThere was no fire or smoke during or following the incident. \n1.15 Survival aspects: \nThe incident was survivable.  \n1.16 Tests and research: \nNot applicable. \n1.17 Organizational& Management Information:- \n1.17.1 InterGlobe Aviation Ltd: \nM/s InterGlobe Aviation Ltd.(IndiGo) is a scheduled airline operating a fleet of Airbus A-320, \nA-320 neo, A-321neo and ATR 72 aircrafts. The airline operates flights on domestic and \ninternational sectors.",
+      "frame": 31,
+      "length": 938
+    },
+    {
+      "id": 32,
+      "text": "stic and \ninternational sectors. The aircrafts are maintained by the airline which also holds a valid Aircraft \nMaintenance Organisation (AMO) approval from DGCA.  \n1.17.1.1 IndiGo CAT II/III READY RECKONER \nGiven the non- routine nature of the operation, flight crew may refer to this \u2018Ready Reckoner\u2019 \nduring the \u2018SET -UP\u2019, as given below which has been developed in -house by the operator.  \nPRE-REQUISITES: \n\u2022 Verify Crew qualification and currency  \n\u2022 Aircraft Status (Check on ECAM STATUS page/ QRH that the required landing capability is \navailable) \n\u2022 Weather (Destination & Alternate), check minima\u2019s and wind limitation for auto land  \n\u2022 NOTAMs \u2013  Check that the airport meets CAT II/ III requirements as applicable \n\n\nInvestigation report: VT-IMW 15.06.2023                                                                                                     Page 15 \n \u2022 ATC clearance for a CAT II/ III approach obtained  \nReady Reckoner (SOP Items) \n\u2022 Approach Ban  \n\u2022 Minimum Visual References applicable to type",
+      "frame": 32,
+      "length": 1024
+    },
+    {
+      "id": 33,
+      "text": "al References applicable to type of approach  \n\u2022 For Landing Distance ( LD & FLD) calculation, determining optimum CONF/ AUTO BRAKE/  \nTHR REV combination, as per SOP. \n\u2022 Review Planned Designated RWY EXIT TWY & Taxi Route (refer AF specific LVP Routes \nfor  \nARR RWY). \n\u2022 Review of task sharing & crew call outs  \n\u2022 Review crew respon se to failures \n\u2022 Cabin Crew Briefing  \n \nCOCKPIT PREP \n\u2022 Check Seat Position optimum  \n\u2022 FLAP & AUTO BRAKE as required.  \n\u2022 Flight deck lighting dimmed & Use of exterior lights  \n \nREVIEW OF FAILURE CASES \nAbove 1000 FT AGL: \n\u2022 Downgrading conditions Downgrading from CAT III to CAT II is permitted only if: \n- ECAM actions are completed. \n- RVR is at least equal to CAT II Minima. \n- Briefing is amended to include CAT II procedure and DH. \n- Decision to downgrade is completed above 1000\u2019 AGL.  \n\u2022 Downgrading from CAT II to CAT  I is permitted only if: \n- ECAM actions are completed. \n- RVR is at least equal to CAT I Minima. \n- Briefing is amended to include CAT I procedure and DH.",
+      "frame": 33,
+      "length": 1023
+    },
+    {
+      "id": 34,
+      "text": "include CAT I procedure and DH. \n- The decision to downgrade is completed above 1000\u2019 AGL.  \nNote: Switching from one autopilot to another above 1000\u2019 AGL is permitted.  \n \nBelow 1000 FT AGL and above DH (CAT 2 or CAT 3 SINGLE) or above 100 feet RA / Alert \nHeight (CAT 3 DUAL), a Go-Around should be performed in case of: \n\u2022 Amber Caution (single chime), or  \n\u2022 Landing capability degradation  \n \n \n \n \n \n \n \n \n \n\nInvestigation report: VT-IMW 15.06.2023                                                                                                     Page 16 \n CALL OUTS \nCALLOUTS & CREW \nACTIONS \u2013CAT II/III   \nFlight Conditions  CM1Actions/ Calls  CM2 Actions/ Calls  \nOM/Equivalent Fix CHECKED OM/DME \nCROSSCHECK \nALT\u2026\u2026\u2026 FT  \n1000 FT RA  CHECKED \nCheck FMA displays the aircraft \ncapability \n(CAT2 or CAT3) 1000 (1) \nAT 350 FT RA  LAND (Check ILS course)  \nDH+100 FT(CATII/CATIII \nwith DH) CHECKED 100 ABOVE(1) \n100 FT RA(CATIII) CHECKED(1)/ CONTINUE ONEHUNDRED(1)/ALE\nRT HEIGHT \nDH (CATII/CATIII with DH) CONTINUE M",
+      "frame": 34,
+      "length": 1023
+    },
+    {
+      "id": 35,
+      "text": "CATII/CATIII with DH) CONTINUE MINIMUM(1) \nAT 40FT RA  Monitor Flare by Flight \nInstruments FLARE/NO FLARE(2) \nAT 30 FT RA  Monitor Thrust Reduction THRUST IDLE CHECK \nAT 10 FT RA \n<<RETARD>> \nAUTO CALLOUT MOVE the THRUST LEVERS to \nIDLE \nMONITOR LATERAL \nGUIDANCE(3) Monitor engine \nparameters \nAT TOUCHDOWN  BOTH THRUST LEVERS-REV \nIDLE/ MAX (As Required) \nBOTH THRUST LEVERS-REV \nIDLE ROLLOUT \nSPOILERS \nREVERSE GREEN \nDECEL \n70 KTs \nBEFORE 20 KT  Disengage AUTO BRK (use \nbrake pedals)  \nAT TAXI SPEED  REVERSERs -STOW  \nEND OF ROLLOUT  DISCONNECT AP(4)  \nDH/GO AROUND  GO AROUND \u2013 FLAPS \nGEAR UP MINIMUM (1) \nFLAPS.......... \nPOSITIVE CLIMB \nGEAR UP \n(1)MONITOR the radio automatic callout, if available. \n(2)Between 50 and 40 feet: Check \u201cFLARE\u201d is Displayed on the FMA. If NO FLARE mode at \n30 FT, discontinue the approach or perform a manual landing if visual references are acquired. \n(3)Monitor the lateral guidance by using external reference.",
+      "frame": 35,
+      "length": 954
+    },
+    {
+      "id": 36,
+      "text": "nce by using external reference. \n(4)When leaving the runway at the latest, once planned exit taxiway is identified and to follow \ntaxiway center line lights. \n \n\nInvestigation report: VT-IMW 15.06.2023                                                                                                     Page 17 \n 1.17.1.2 ILS CAT II/ III OPERATIONS \u2013 TRAINING & QUALIFICATIONS (RELEVANT \nEXTRACT) \n1.17.1.2.1 Ground Training for PIC, First Officer for CAT II and CAT III  Authorization  \nThe ground training shall lay specific emphasis on the following:  \nAll the technical aspects required for Cat-II and Cat-III operations, the aircraft equipment \nrequired for carrying out Cat-II and Cat-III approaches and associated  weather phenomenon, \nwith special emphasis on poor visibility in fog, rain,  meteorological minima etc. This training \nshall be given by Ground Instructor / Flight Instructor / TRI / SFI / Examiner trained in Cat-II \nand Cat-III operations.",
+      "frame": 36,
+      "length": 962
+    },
+    {
+      "id": 37,
+      "text": "Cat-II \nand Cat-III operations.  \n \nThe techniques for Cat-II and Cat-III operations, effects on operations due failures in the \nairborne and ground equipment and their indications, and action required to be taken on various \nfailures. This training shall be given by Flight Instructor / TRI / SFI / Examiner trained in Cat-\nII and Cat-III operations. \n \n1.17.1.2.2 Simulator training and line flying of PIC & First Officer for CAT II/ CAT III \nauthorization \nThe training exercises stipulated here under shall be the minimum to be carried out on an \napproved simulator. The Instructor shall ensure that the pilot acquires the required proficiency \nand if necessary additional training be given. In case of a gap between ground classes / simulator \ntraining and line flying of more than six months the pilot shall undergo a simulator training \nsession of at least 8 Cat-II/III approaches.  This may be combined with recurrent IR/PPC \ntraining.",
+      "frame": 37,
+      "length": 943
+    },
+    {
+      "id": 38,
+      "text": "with recurrent IR/PPC \ntraining. \n \nIn case an SFI has not held a CAT II/III authorization on type within the previous 36 months, \nthen prior to imparting training for LVTO and CAT II/III operations, he must complete the \nground training for LVTO and CAT II/III. Thereafter, the SFI shall observe and conduct under \nsupervision LVTO and CAT II/III training under an SFI/TRI/Instructor/Examiner as appropriate \nprior to conducting LVTO and CAT II/III training. \n \nSimulator training for CAT II/III is prescribed for a standard crew complement of one  PIC and \nco-pilot.  \n \na) Simulator training for PIC / First Officer \ni) Pilots with no previous Cat-II/III Authorization. \nii) Pilots with previous Cat-II/III authorization on different design type. \niii)Pilots with previous Cat-II/III authorization on Same or Similar Design  Type.",
+      "frame": 38,
+      "length": 833
+    },
+    {
+      "id": 39,
+      "text": "on Same or Similar Design  Type. (Similar design \ntypes are aeroplanes that have similar displays and procedures for Cat II/III operations such as \nfail operational A 320/ A330) \nNote 1: CAT II/III training and checking may be conducted as part of PIC upgrade/co-pilot type \ntraining conversion course. \nNote 2: Incapacitation procedures shall be practised. \niv) Pilots upgrading from Cat IIIA to Cat IIIB on the same aircraft type. \n \n \n \n\nInvestigation report: VT-IMW 15.06.2023                                                                                                     Page 18 \n b) Line flying for PIC / First Officer \ni) One ILS Cat II/ III approach for PIC with a CAT II/ III qualified First officer in weather \nconditions at or above the Cat I minima.  \nii) One ILS Cat II/ III approach for Co-pilot with a Cat II/ III qualified PIC in weather conditions \nat or above the Cat I minima. \n \n1.17.1.",
+      "frame": 39,
+      "length": 911
+    },
+    {
+      "id": 40,
+      "text": "ove the Cat I minima. \n \n1.17.1.3 Recency requirements for CAT-II/III (Operations Manual- Part D) \nTo exercise the privileges of applicable CATII/III authorization, a PIC/ Co-pilot shall have \ncarried out a minimum of 6 CAT II/III approaches to the authorized RVR including 3 landings \nin the approved simulator. For CAT II authorized pilots, at least one CAT II landing shall be \nconducted in the simulator exercise above. There is no separate requirement to maintain CAT II \nrecency for such pilots. \nNote: All the above required practice approaches on the aircraft for initial authorization and \nrecency can be carried out at any Category I ILS runway where auto land can be carried out and \nwhich has been suitably assessed, after flight trials. Periodically a list is updated of airports/ \nrunways where practice CAT II/ III approaches/ auto land may be carried out. All practice & \nactual Cat II/III approaches to be logged in Cat II/ III logbook issued by the organization. \n \n1.17.1.",
+      "frame": 40,
+      "length": 991
+    },
+    {
+      "id": 41,
+      "text": "by the organization. \n \n1.17.1.4 Recurrent training and checking for CAT-II/III (Operations Manual- Part D) \na) Recurrent Ground Training \nRecurrent ground training shall provide any remedial review of topics specified in initial Cat-II \nand Cat-III ground training, to ensure continued familiarity with those topics. Emphasis shall be \nplaced on any programme modifications, changes to aircraft equipment or procedures, review \nof any occurrences or incidents that may be pertinent, and finally emphasis may be placed on \nre-familiarisation with topics such as flight mode annunciation for failure conditions or other \ninformation which the pilots may not routinely see during normal line operations. Topics to be \naddressed for each PIC and Co Pilot are those topics, necessary for the performance of the \nassigned duties for each respective crew member in the current assignment. In addition, \noperational aspects for assessment of equivalent TDZ RVR as given in e-manual are also \ncovered.",
+      "frame": 41,
+      "length": 993
+    },
+    {
+      "id": 42,
+      "text": "n in e-manual are also \ncovered. This training should be completed during annual refresher training. \n \nb) Recurrent Simulator Training and Checks for PIC/ Co-Pilot \nPilot\u2019s knowledge and ability to perform the tasks associated with the particular category of \noperation for which he is authorized, is to be demonstrated during  training and PPC/IR checks. \nThis shall include a minimum of 3 CAT II/III approaches  and a minimum of 1 go-around in the \ntraining and PPC/IR check profiles.  \n \n1.17.1.5 Operations Manual- Part A \n1.17.1.5.1 Automatic landing \n\u25cf Automatic landing is a portion of the LVO approach. An automatic landing system is only \nequipment providing automatic control of the aircraft during the approach & landing and is \nnot related to a particular weather condition. This system is mandatory for all CAT III \noperations. However, it can also be performed for a CAT II approach provided the ILS \nperformance is sufficient and ILS signals are protected.",
+      "frame": 42,
+      "length": 972
+    },
+    {
+      "id": 43,
+      "text": "t and ILS signals are protected. For training and qualification \npurposes it is permissible to use Autoland at or above CAT I conditions, subject to various \nlimitations. In case of failures while performing an Autoland, at any time during the \n\nInvestigation report: VT-IMW 15.06.2023                                                                                                     Page 19 \n approach, if visual references are sufficient, the Auto Pilot can be disengaged and the \nlanding completed manually. \n\u25cf In order to keep the aircraft\u2019s Au toland status valid approved pilots are expected to do an \nAutoland every 30 days to authorised runways. An entry \u201cAutoland Satisfactory\u201d is to be \nmade in the FRB whenever a satisfactory Autoland is performed. If the Autoland was not \nsatisfactory an \u201cAutoland Unsatisfactory\u201d FRB entry is to be made. In addition, PIC is to \nmake detailed entry (reason) in defect report column of FRB for assisting trouble shooting \nby engineers.",
+      "frame": 43,
+      "length": 983
+    },
+    {
+      "id": 44,
+      "text": "trouble shooting \nby engineers. Auto Land for practise can only be performed at approved runways. \n\u25cf If no practice/ actual LVO approach and auto land has been carried out in preceding 30 days \nthe aircraft\u2019s Autoland status gets downgraded. This condition will be indicated to the crew \nby a Sticker stating AUTOLAND DOWNGRADED. This will indicate to the crew that \nalthough the aircraft is LVO and Autoland capable yet an actual approach with Autoland \nbelow CAT I minimums is not authorised. To restore its Autoland capability a satisfactory \npractice Autoland must be performed at the earliest and an entry made in the FRB stating \n\u201cAutoland satisfactory\u201d.  \n\u25cf If the Autoland status has expired/downgraded, crew must perform a  practice auto land \nonly when the ADD/CDD/notices to crew section advises \u2018crew to carry out practice auto \nland\u2019 and a \u2019AUTOLAND DOWNGRADED\u2019 placar d is placed in the aircraft.",
+      "frame": 44,
+      "length": 910
+    },
+    {
+      "id": 45,
+      "text": "car d is placed in the aircraft. \nThe airline has informed that they had a practice in which whenever a \u2018Practice Auto land\u2019 \nis required for the purpose of keeping aircraft\u2019s Auto land status, MCC was sharing the \nAutoland status mail with OCC and Dispatch on daily basis and OCC was further sending \nACARS to crew using automated process. Also it has been informed that, no message was \nsent from OCC to the flight crew on 04.06.2023 and 15.06.2023 for performing a \u2018Practice \nAuto land\u2019.  \n1.17.1.5.2 Automatic landing in CAT I or better weather conditions \nThe automatic landing system's performance has been demonstrated on runways equipped with \nCAT II or CAT III ILS approaches. However, practice automatic landing in CAT I or better \nweather condition is permissible on approved runways with CAT I ground installations or on \nCAT II/III ground installations when ILS sensitive areas are not protected, if the following \nprecautions are taken: \n\u25cf The Company has checked that the ILS beam quality and the effect of  t",
+      "frame": 45,
+      "length": 1024
+    },
+    {
+      "id": 46,
+      "text": "eam quality and the effect of  terrain profile before \nthe runway have no adverse effect on AP/FD  guidance. In particular, the effect of terrain \ndiscontinuities within 300 meters before the runway threshold have been evaluated. \n\u25cf There is no certification requirement to prove that the automatic landing system will \nperform as expected at all conceivable airports. The aircraft use FLARE modes for \nautomatic landing. The FLARE mode is initiated at a given radio altitude (RA), which can \nbe either advanced or delayed as a function of V/S. A higher V/S in the last part of the \napproach due to terrain profile before the runway threshold or higher descent glide slope \nangle will cause the flare mode to engage earlier than usual. The aircraft may temporarily \nfloat above the runway surface before pitch is reduced to resume a gentle descent down the \nrunway leading to a long flare. \n \n \n \n \n\nInvestigation report: VT-IMW 15.06.",
+      "frame": 46,
+      "length": 935
+    },
+    {
+      "id": 47,
+      "text": "estigation report: VT-IMW 15.06.2023                                                                                                     Page 20 \n 1.17.1.5.3 Practice approaches \nAll practice approaches on aircraft are to be carried out under weather conditions at or above \nCAT I minimums. The practice approaches can be carried out by the Flight Crew who are \nqualified and may not be current.  \nPractice Auto Approaches, at or above CAT I minimum, can be carried out on any ILS equipped \nrunway.  \nWith weather conditions being better than CAT I minima, the LVPs may not have been \nimplemented. Therefore, the Critical and Sensitive areas would not be protected and may result \nin interference to the ILS signal. The flight crew must continuously monitor the indications. \nFurther, practice Auto Approach Auto Land for A320/321 can only be carried out on the \nrunways mentioned in an Annexure to Operations Manual Part A (which includes Ahmedabad-\nVAAH RWY23), in-addition to all runways with CAT II/ III facility/ approa",
+      "frame": 47,
+      "length": 1024
+    },
+    {
+      "id": 48,
+      "text": "ith CAT II/ III facility/ approaches. \n \n1.17.1.6 IndiGo- Operations Notice (Airbus)- FLT/OPS/N-NO:32 Fuel Efficiency & Reducing \nCarbon Footprint (RELEVANT EXTRACT) \nBackground: Adequate fuel is essential, and correct fuel vital. Pilots play a significant role in \nfuel management, and hence it is imperative that aircraft are operated in a manner, which is cost \nefficient without compromising safety. Conservation begins from the finalisation of fuel figures, \nall the way to shut down, a principle not always followed. \nIt is also stated that, \u2018considering the increasing size of operations, an attempt to control rising \ncarbon emissions & also operating costs by saving every kilogram (KG) of fuel \u2026\u2026..\u2019  \n \n \n\n\nInvestigation report: VT-IMW 15.06.2023                                                                                                     Page 21 \n Techniques to reduce Fuel burn & Carbon emissions: \n\uf0b7 FLAP 3 LANDINGS: \nFlap3 landing is a worldwide regular practice on the A-320.",
+      "frame": 48,
+      "length": 999
+    },
+    {
+      "id": 49,
+      "text": "e regular practice on the A-320. Apart from landing in gusty wind \nconditions, it is also executed as a fuel saving measure, when landing performance permits.  \nIndiGo recommends Flap 3 Landings whenever professional assessment and judgement \ndetermines that they are appropriate for execution. Also, landing performance permitting, Flap3 \nConfiguration is the preferred landing configuration every time. Going forward it is informed \nthat during PIC RCs the ability of the U/T PIC to execute Flap3 approach and Landing shall be \nobserved in all RCs. \nFull Flap Landings are recommended in the following cases: \n\uf0b7 Landings at Performance Limited Airfields. \n\uf0b7 Tailwind Component 10k or higher (due high ROD) \n\uf0b7 Landing Performance limited \n[Refer Annexure 3 for Common Misconceptions and Errors related to Config 3 Landings.] \n \nAfter the incident the Operations Notice (Airbus)- FLT/OPS/N-NO:32  has been replaced with \nOperations Notice(Airbus) FLT/OPS/N-NO: 02-06C on SAFETY, SUSTAINABILITY & \nOPERATIONAL EFFICIENCY.",
+      "frame": 49,
+      "length": 1020
+    },
+    {
+      "id": 50,
+      "text": "ILITY & \nOPERATIONAL EFFICIENCY. The relevant extract on landing with Flaps 3 is as below:  \nCONF-3 LANDINGS: Pilots shall use their assessment and judgement to determine the \nappropriate Landing Configuration. CONF-3 should be considered depending on the available \nrunway length and go-around performance, or in case of windshear/severe turbulence during \napproach. While CONF-Full provides better handling capability in turbulent conditions, CONF-\n3 provides more energy and less drag. Pilots shall also refer to conditions outlined in FCOM, \nFCTM & OMB Chapter 2. \n1.18. Additional information: \n 1.18.1Airbus Report:- \nThe FDR of the incident flight was evaluated by Airbus and the following were reported:- \nThe auto-land approach has been initiated with significant wind conditions: \n- Longitudinal wind variations from -30kts (headwind) and 0kts \n- Left lateral wind variations from +23kts and +10kts \nTouch down occurred with landing CONF 3 selected.",
+      "frame": 50,
+      "length": 959
+    },
+    {
+      "id": 51,
+      "text": "ed with landing CONF 3 selected. \n \nAnalysis of the FMS BITE indicated that a copy of the active FPLN to secondary FPLN has \nbeen done at 07:58:36 UTC with landing configuration as default, meaning CONF FULL. \nThen, indeed CONF 3 has been selected in the active FPLN by the crew during cruise (MCDU \n5R button recorded pushed) around 08:00:41 UTC, before the top of descent (T/D). \nAt 08:07:12 UTC, secondary FPLN was activated during the descent. This led the landing \nconfiguration to revert to CONF FULL as copied previously. \nIn accordance with the CONF FULL considered by the FMS, the Vapp computation resulted to \nbe lower than VLS which then contributed to a touch down below VLS-15. \n \n\nInvestigation report: VT-IMW 15.06.2023                                                                                                     Page 22 \n Airbus concluded that as per the above analysis, the reported issue was due to FMS active and \nsecondary FLPNs mishandling and wind gusts during final approach and flare.",
+      "frame": 51,
+      "length": 1015
+    },
+    {
+      "id": 52,
+      "text": "during final approach and flare. \nNo aircraft misbehaviour has been observed on this event. \n \nThe PITCH WARNING is available with the below conditions:-  \nPITCH WARNING PIN-Prog active ; Radio-Altimeter < 20Ft; TOGA mode not active; \nAutopilots OFF; Pitch + pitch rate > 8.25\u00b0.  \nAs per DFDR data the during flare phase Pitch angle reached +10.02\u00b0 with both AP\u2019s engaged.  \nAs per the above mentioned PITCH WARNING conditions, AP\u2019s must be OFF to active the \nPITCH PITCH warning. This was the reason for non-activation of PITCH PITCH warning \nduring the event. \n \n1.18.2 FCOM Reference: Ground Clearance Diagram \n \n \nPitch attitude limit with MLG fully compressed for A321 is 9.7\u00b0. Pitch attitude limit with MLG \nfully extended is 11.2\u00b0. \n1.18.3 FCOM Reference: STANDARD OPERATING PROCEDURES - DESCENT \nPREPARATION (Relevant Extract)  \nDESCENT PREPARATION  \nDescent preparation and arrival briefing should be completed before top of descent. \n \nLANDING INFORMATION \nWEATHER AND LANDING INFORMATION..........................",
+      "frame": 52,
+      "length": 1024
+    },
+    {
+      "id": 53,
+      "text": "MATION.....................................................OBTAIN PM \nNAV CHARTS CLIPBOARD.........................................................................PREPARE BOTH \n\n\nInvestigation report: VT-IMW 15.06.2023                                                                                                     Page 23 \n ECAM \nECAM STATUS........................................................................................................CHECK PM \nLANDING PERFORMANCE \nLANDING CONDITIONS.............................................................................CONFIRM PF-PM \nCheck if the landing conditions changed compared with the landing distance computation at \ndispatch, or with a previous computation (e.g. runway, weather conditions, in-flight failure \naffecting performance, diversion). \nFMS \nARRIVAL page....................................................................................COMPLETE/CHECK PF \nF-PLN A page................................................................................",
+      "frame": 53,
+      "length": 1024
+    },
+    {
+      "id": 54,
+      "text": ".............................................................CHECK PF \nDES WIND page.........................................................................................................CHECK PF \nEnter winds for descent before T/D. \nPERF APPR page..................................................................................COMPLETE/CHECK PF \nEnter the QNH, temperature, and wind at destination. \nNote: Insert the average wind given by the ATC or ATIS. Do not insert the gust value. During \napproach, the Ground Speed Mini function (managed speed mode) takes into account \nthe instantaneous gust. \n\u2010 Insert the minimum.  \nNote: After the activation of the SEC F-PLN, check the VAPP, and modify if necessary. \n\u2010 Check or modify the landing configuration. Alwa ys select the landing configuration on the \nPERF APPR page: CONF FULL in the normal landing configuration.",
+      "frame": 54,
+      "length": 873
+    },
+    {
+      "id": 55,
+      "text": "he normal landing configuration. CONF 3 should be \nconsidered, depending on the available runway length and go-around performance, or if \nwindshear/severe turbulence is considered possible during approach.  \n{[FCOM-AIRCRAFT SYSTEMS- MCDU- PERF APPR PAGE DESCRIPTION: AUTO \nFLIGHT-FLIGHT MANAGEMENT]: CONF FULL is the default landing configuration (LDG \nCONF)}- PERF APPR Page is depicted below (FCOM reference)  \nSEC F-PLN page ....................................................................................................AS RQRD PF \nBefore the top of descent, the SEC F-PLN should either be set to an alternate runway for \ndestination, or to the landing runway in case of circling. In all cases, routing to the alternate \nshould be available. \nIf there is a last-minute runway change, then the flight crew only needs to activate the secondary \nF-PLN, without forgetting to check/set the new minimum and navaids. \nFMS PREPARATION .............................................................................",
+      "frame": 55,
+      "length": 1013
+    },
+    {
+      "id": 56,
+      "text": "................................CROSSCHECK    PM \nAfter the PF prepares the FMS, the PM checks all the data entered in the FMS. The PM should \nhave the same mental image of the intended arrival and approach procedure, trajectory, and \nconstraints than the PF. The PM should check with the PF if anything is not clear. \nSEC F-PLN page.....................................................................................................AS RQRD PF \nGPWS LDG FLAP 3 pb-sw...........................................................................AS RQRD   PF \nIf the flight crew plans on landing in FLAPS 3 configuration, the GPWS LDG FLAP 3 PB-SW \nshould be set to ON. \n\nInvestigation report: VT-IMW 15.06.2023                                                                                                     Page 24 \n  \n \nPERF APPR PAGE  \n1.18.",
+      "frame": 56,
+      "length": 844
+    },
+    {
+      "id": 57,
+      "text": "24 \n  \n \nPERF APPR PAGE  \n1.18.4 FCTM Reference: CONTENT OF A LANDING PERFORMANCE DATA \nCROSSCHECK \nWhen SOPs request a crosscheck of landing performance data, both the PF and the PM must \nverify all the following values: \n\u2010 RWY Ident  \nThis ensures that the runway used for the computation in the EFB and/or inserted in the FMS is \nthe same \n\u2010 RWY Length \nThis ensures that the flight crew took into account any NOTAM that affects the runway length \n\u2010 Airport Weather Information (Wind, QNH, Temperature, Runway condition)  \n\u2010 Landing Weight  \n\u2010 FLAPS \n\u2010 FLD \n\u2010 VAPP. \n1.18.5 FCOM AUTOLAND CHECKLIST (RELEVANT EXTRACT) \nAT 350 FT RA \nLAND ON FMA..................................................................................CHECK/ANNOUNCE PF \nILS/GLS /MLS COURSE ON PFD............................................................................CHECK PF \nIf the ILS / GLS course pointer and the runway track differ by more than 5 \u00b0, perform a goaround, \nor a manual landing if visual references are sufficient.",
+      "frame": 57,
+      "length": 1014
+    },
+    {
+      "id": 58,
+      "text": "isual references are sufficient. \nAT 40 FT RA \nFLARE ON FMA...............................................................................CHECK/ANNOUNCE PM \nNote: If the FMA does not display FLARE, perform a go-around, or a manual landing if visual \nreferences are sufficient. \nNote : FLARE........................................................................................................MONITOR PF \n \n \n\n\nInvestigation report: VT-IMW 15.06.2023                                                                                                     Page 25 \n AT 30 FT RA \nTHR IDLE ON FMA.................................................................................................CHECK PM \nTHRUST IDLE..........................................................................................................CHECK PM \n \nAT 10 FT RA \nAn automatic \"RETARD\" callout triggers. \nTHRUST LEVERS.........................................................................................................",
+      "frame": 58,
+      "length": 998
+    },
+    {
+      "id": 59,
+      "text": "................................IDLE PF \nThe autothrust disconnects. \nLATERAL GUIDANCE........................................................................................MONITOR PF \nMonitor the lateral guidance by using external references \nAT TOUCHDOWN \nNote: In the case of NWS or Anti-Skid failure, set the AP OFF at touchdown. \nROLL OUT ON FMA........................................................................CHECK/ANNOUNCE PM \nBOTH THRUST LEVERS.............................................................REV MAX or REV IDLE PF \nGND SPLRS......................................................................................CHECK/ANNOUNCE PM \nREVERSERS.....................................................................................CHECK/ANNOUNCE PM \nDIRECTIONAL CONTROL................................................................MONITOR/ENSURE PF \n \nIf autobrake is selected: \nAUTO BRK........................................................................................",
+      "frame": 59,
+      "length": 999
+    },
+    {
+      "id": 60,
+      "text": "................................CHECK/ANNOUNCE PM \nCheck and announce BRK LO or BRK MED on the FMA. If no ground spoilers are extended, \nthe autobrake is not activated. \n \nAUTOBRAKE......................................................................................................MONITOR PM \nDuring all the rollout, the PM monitors that the FMA displays BRK LO or BRK MED , and calls \nout if the autobrake mode disengages. \n \nAT 70 KT \nSEVENTY KNOTS..........................................................................................ANNOUNCE PM \nBOTH THRUST LEVERS.....................................................................................REV IDLE PF \n \nBEFORE 20 KT \nAUTO BRK...............................................................................................................DISARM PF \n \nEND OF ROLL OUT \nREVERSERS................................................................................................................STOW PF \nAP........................................................",
+      "frame": 60,
+      "length": 1024
+    },
+    {
+      "id": 61,
+      "text": "..............................................................................................................OFF PF \n \n1.18.6 Pilot Defect Report (PDR):- \nAfter landing at Ahmedabad the following entry was made in the technical log book: \n\u2018SECTOR SNAG NIL . NOTE: CARRIED OUT AUTOLAND IN CONF3 AS WINDS WERE \nGUSTING 190/20- 25kt AFTER FLARE OUT AC DID HARD LANDING.\u2019  \n \n\nInvestigation report: VT-IMW 15.06.2023                                                                                                     Page 26 \n 1.18.7 FCOM Reference: Limitations: MAXIMUM WIND CONDITIONS FOR ILS/MLS \nCAT II OR CAT III AND FOR GLS CAT I : VT-IMW (Relevant Extract) \n \nHeadwind : 15 kt \nTailwind : 10 kt \nCrosswind : 10 kt \nWind limitation is based on the surface wind reported by ATC. If the wind displayed on \nthe ND exceeds the above-noted autoland limitations, but the tower reports surface wind within \nthe limitations, then the autopilot can remain engaged.",
+      "frame": 61,
+      "length": 958
+    },
+    {
+      "id": 62,
+      "text": "he autopilot can remain engaged. If the tower reports a surface wind that \nexceeds the limitations, only CAT I automatic approach without autoland can be performed. \nLIM-AFS-20-10-00020149.0001001: ILS/MLS CAT II and CAT III autoland and GLS CAT I \nautoland are approved in CONF 3 and CONF FULL. \nLIM-AFS-20-10-00020158.0001001: Automatic landing system performance is demonstrated \nwith CAT II or CAT III ILS/MLS airport installation. However, automatic landing in CAT I or \nbetter weather conditions is possible on CAT I ground installations or on CAT II/III ground \ninstallations when ILS/MLS sensitive areas are not protected, if the following precautions are \ntaken: \n\u2010 The airlin e checked that the ILS/MLS beam quality, and the effect of the terrain profile before \nthe runway have no adverse effect on AP/FD guidance. Particularly, the effect of terrain profile \nwithin 300 m before the runway threshold must be evaluated.",
+      "frame": 62,
+      "length": 930
+    },
+    {
+      "id": 63,
+      "text": "way threshold must be evaluated. \n\u2010 The flight crew is aware that LOC or G/S beam fluctuations, independent of the aircraft \nsystem, may occur. The PF is prepared to immediately disconnect the autopilot, and to take the \nappropriate action, should not satisfactory guidance occur. \n\u2010 At least CAT2 capability is displayed on the FMA and the flight crew uses CAT II/III \nprocedures. \n\u2010 Visual references are obtained at an altitude appropriate for the CAT I approa ch. If not, a go-\naround must be performed. \n1.18.8 FCTM REFERENCE: APPROACH USING LOC G/S FOR CATII CATIII \n \nFLIGHT PREPARATION \nIn addition to the normal flight preparation, the following preparation must be performed when \nCAT II or CAT III approach is planned: \n\u2010 Ensure that destination airport meets CAT II or CAT III requirements  \n\u2010 Check aircraft r equired equipment for CAT 2 or CAT 3 in QRH \n\u2010 Check that crew qualification is current  \n\u2010 Consider extra fuel for possible approach delay  \n\u2010 Consider weather at alternate  \n \nAPPROACH PREPARATION",
+      "frame": 63,
+      "length": 1021
+    },
+    {
+      "id": 64,
+      "text": "nate  \n \nAPPROACH PREPARATION \n \nLIMITATIONS \n\u2010 The crew will check that tower wind remains within  the limit for CAT II or CAT III approaches \n\u2010 The autoland maximum altitude must be observed.  \n\nInvestigation report: VT-IMW 15.06.2023                                                                                                     Page 27 \n  \nAIRPORT FACILITIES \nThe airport authorities are responsible for establishing and maintaining the equipment required \nfor CAT II/III approach and landing. The airport authorities will activate the LVP procedures as \nthe need arises based on RVR. Prior to planning a CAT II/III approach, the crew must ensure \nthat LVP are in force. \n \nCREW QUALIFICATION \nThe captain must ensure that both crew members are qualified and that their qualification is \ncurrent for the planned approach. \n \nAPPROACH BRIEFING \nBefore commencing a CAT II/III approach a number of factors must be considered by the crew.",
+      "frame": 64,
+      "length": 944
+    },
+    {
+      "id": 65,
+      "text": "must be considered by the crew. \nIn addition to the standard approach briefing, the following points should be emphasised during  \nan approach briefing for a low visibility approach: \n\u2010 Aircraft capability  \n\u2010 Airport facilities  \n\u2010 Crew qualification  \n\u2010 Weather minima  \n\u2010 Task sharing  \n\u2010 Call-outs \n\u2010 Go-around strategy  \n \nAPPROACH PROCEDURE \nTASK SHARING \nThe workload is distributed in such a way that the PF primary tasks are supervising and decision \nmaking and the PM primary task is monitoring the operation of the automatic system. \nPF Tasks \nThe PF supervises the approach (trajectory, attitude, speed) and takes appropriate decision at \nDH or in case of failure. \nSince the approach is flown with AP / FD / A/THR, the PF must be continuously ready to take-\nover: \n\u2010 If any AP hard over is experienced  \n\u2010 If a major failure occurs  \n\u2010 If any doubt arises.  \nThe PF announces \"LAND\", when displayed on FMA.",
+      "frame": 65,
+      "length": 919
+    },
+    {
+      "id": 66,
+      "text": "s \"LAND\", when displayed on FMA. \nPM Tasks \nFor aircraft without HUD or with single HUD, the PM is head down throughout the automatic \napproach and automatic landing. \nFor aircraft with DUAL HUD, the PM may be head up or head down. \nThe PM monitors: \n\u2010 The FMA and calls all mode changes below 350 ft as required (i.e. after PF calls \"LAND\")  \n\u2010 The Auto call out  \n\u2010 The aircraft trajectory or attitude exceedance  \n\nInvestigation report: VT-IMW 15.06.2023                                                                                                     Page 28 \n \u2010 Any failures.  \n \nThe PM should be go-around minded. \n \nFLARE/LANDING/ROLL OUT \nDuring the flare, decrab and roll-out, the PF will look outside to assess that the autoland is \nproperly carried out, considering the appropriate visual references. \nFor CAT II approaches, autoland is recommended. If manual landing is preferred, the PF will \ntake-over at 80 ft at the latest. This ensures a smooth transition for the manual landing.",
+      "frame": 66,
+      "length": 999
+    },
+    {
+      "id": 67,
+      "text": "ansition for the manual landing. \nPull to REV MAX (or REV IDLE if conditions permits) at main landing gear touchdown (not \nbefore). \nThe use of auto-brake is recommended as it ensures a symmetrical brake pressure application. \nHowever, the flight crew should be aware of possible dissymmetry in case of crosswind and wet \nrunways. \nThe PM should make the standard callouts and advise ATC when the landing roll is completed.  \n \n1.18.9 FCTM REFERENCE: AUTOLAND IN CAT I OR BETTER WEATHER \nCONDITIONS \nThe flight crew may wish to practice automatic landings in CAT I or better weather conditions \nfor training purposes. This type of approach should be carried out only with the airline \nauthorization. The flight crew should be aware that fluctuations of the LOC and/or GS might \noccur due to the fact that protection of ILS sensitive areas, which applies during LVP, will not \nnecessarily be in force.",
+      "frame": 67,
+      "length": 900
+    },
+    {
+      "id": 68,
+      "text": "ll not \nnecessarily be in force. It is essential; therefore, that the PF is prepared to take over manually at \nany time during a practice approach and rollout, should the performance of the AP become \nunsatisfactory. \n1.18.10 FCOM REFERENCE: MANAGED SPEED/MACH TARGET \nFor managed speed/Mach, the lowest target is VLS, and the highest target is: \n\u2010 VMAX in the case VMAX is equal to VFE, or \n\u2010 VMAX - 5 kt in the case VMAX is equal to VMO/MMO. \n \nWhen speed/Mach is managed, the target is defined as follows: \nAP/FD Engaged Mode \nor FMS Flight Phase Managed Speed/Mach Target \n\u2010 The FMS flight phase is the approach \nphase \n \nIn this case, the APs and/or FDs may be \non or off \n \nOr \n \n\u2010 F-G/S, G/S, LAND, FLARE or ROLL \nOUT is engaged VAPP, corrected by the Ground Speed Mini \nfunction. \n \nBefore reaching the landing configuration, the \nspeed will not go below: \n\u2010 Green Dot, in clean configuration  \n\u2010 S, in CONF 1 \n\u2010 F, in CONF 2  \n\u2010 F, in CONF 3, when CONF FULL is the landing \nconfiguration (as defined in the PERF APP",
+      "frame": 68,
+      "length": 1024
+    },
+    {
+      "id": 69,
+      "text": "tion (as defined in the PERF APPR page). \n \n \n \n\nInvestigation report: VT-IMW 15.06.2023                                                                                                     Page 29 \n  \nVAPP is memorized at 700 ft RA, so if the FMS \nloses the VAPP below 700 ft RA, the managed \nspeed target will still be computed. \n \nThe lower limit of the managed speed target is the \nVAPP that is computed by the FMS, and displayed \non the MCDU. \n \nIf the VAPP computed by the FMS is not available, \nthe VAPP is VLS +5 kt. \nThe higher limit of the managed speed target is the \nVFE NEXT (or VFE - 5 kt in full configuration) of \nthe landing configuration. \n1.18.11FCOM REFERENCE: GROUND SPEED MINI FUNCTION \nWhen the aircraft flies an approach in managed speed, the managed speed target, displayed by \nthe magenta triangle on the PFDs, is variable. This managed speed target is the VAPP, displayed \non the PERF APPR page, corrected by the Ground Speed Mini function.",
+      "frame": 69,
+      "length": 966
+    },
+    {
+      "id": 70,
+      "text": "the Ground Speed Mini function. \nACTIVATION CONDITIONS \nThe Ground Speed Mini function is active when: \n\u2010 The speed is managed  \n\u2010 The FMS flight phase is the approach phase.  \nThe Ground Speed Mini function does not correct Green Dot, S and F speeds. \nPRINCIPLE \nThe Ground Speed Mini function takes advantage of the aircraft inertia when the wind varies \nduring the approach in order to provide an appropriate indicated target speed (i.e. the managed \ntarget speed represented by the magenta triangle on the PFD). When the flight crew flies this \nindicated target speed, the energy of the aircraft is maintained above a minimum level that \nensures standard aerodynamic margins versus the stall. \nThe minimum energy level is the energy level the aircraft will have at touchdown with an \nindicated airspeed equal to VAPP, and with the wind equal to the tower reported wind as inserted \nin the PERF APPR page. The ground speed then equals the Ground Speed Mini. \nThe Ground Speed Mini is not displayed to the flight crew.",
+      "frame": 70,
+      "length": 1020
+    },
+    {
+      "id": 71,
+      "text": "ot displayed to the flight crew. \nDuring the approach, the FMGS continuously computes the managed target speed in order to \nkeep the ground speed at or above the Ground Speed Mini. \nMANAGED SPEED TARGET COMPUTATION \nThe computation of the managed speed target uses the tower headwind component, the current \nheadwind component, and the VAPP. \nTOWER HEADWIND COMPONENT \nThe tower wind is the average wind provided by the ATIS or the tower. The flight crew enters \nthe tower wind in the MAG WIND field in the PERF APPR page. \nThe tower headwind component is the projection of the MAG WIND on the runway axis. This \ncomputation is based on the runway inserted in the FMS active F-PLN. \n\nInvestigation report: VT-IMW 15.06.2023                                                                                                     Page 30 \n CURRENT HEADWIND COMPONENT \nThe projection of the current wind measured by the ADIRS on the aircraft longitudinal axis is \nthe current headwind component (instantaneous headwind).",
+      "frame": 71,
+      "length": 1013
+    },
+    {
+      "id": 72,
+      "text": "ponent (instantaneous headwind). \nVAPP COMPUTATION \nThe FMS computes the VAPP, and displays it on the PERF APPR page. The VAPP computation \ntakes into account the tower headwind component. VAPP is the highest of the following \ncomputations: \n\u2010 VAPP = VLS + 1/3 x TWR HEADWIND COMPONENT, or  \n\u2010 VAPP = VLS + 5 kt.  \nNote: \u201c1/3 of the TWR HEADWIND COMPONENT\u201d has 2 limits:  \n\u2010 0 kt as the minimum value (no wind or tailwind)  \n\u2010 +15 kt as the maximum value . \nThe flight crew can manually modify the VAPP and the MAG WIND values on the PERF APPR \npage. \n \nMANAGED SPEED TARGET COMPUTATION \nThe FG continuously computes the managed speed target that is equal to VAPP plus an \nadditional increment. This increment takes into account the headwind variation during the final \napproach. \nManaged speed target = VAPP + 1/3 x (CURRENT HEADWIND COMPONENT \u2013 TWR \nHEADWIND COMPONENT).",
+      "frame": 72,
+      "length": 872
+    },
+    {
+      "id": 73,
+      "text": "NENT \u2013 TWR \nHEADWIND COMPONENT). \n \nThe managed speed target has the following limits: \n\u2010 VAPP, as the minimum value  \n\u2010 VFE next, in CONF 0,  1, 2, 3, VFE - 5 kt in CONF FULL, as the maximum value. \n1.18.12 FCOM REFERENCE: Characteristic speeds discussed in the report \n        \nAir Speed Scale \nThe characteristic speeds displayed on the PFD are computed by the Flight Augmentation \nComputer (FAC), according to the FMS weight data (for PFD/MCDU display consistency and \naccuracy purposes). \n\n\nInvestigation report: VT-IMW 15.06.2023                                                                                                     Page 31 \n VLS (of normal landing configuration: CONF 3 or FULL), F, S and Green Dot speeds are also \ndisplayed on the MCDU TAKEOFF and/or APPR pages. VLS is indicated by the top of the \namber strip along the speed scale indicates this speed. It represents the lowest selectable speed \nproviding an appropriate margin to the stall speed. \nVapp is the Final approach speed.",
+      "frame": 73,
+      "length": 1007
+    },
+    {
+      "id": 74,
+      "text": "app is the Final approach speed. It is Calculated by the FMGCs and displayed on MCDU \nAPPR page. VAPP = VLS + wind correction. The wind correction is limited to a minimum of 5 \nkt and a maximum of 15 kt. The flight crew may modify VAPP through the MCDU. During \nautoland or when A/THR is on or in case of ice accretion or gusty crosswind greater than 20 kt, \nVAPP must not be lower than VLS +5 kt. \nThe target airspeed is either computed by the FMGC in managed speed mode ( magenta triangle ) \nor manually entered on the FCU in selected speed mode ( blue triangle ).The target speed is a \nmagenta double bar ( =) when associated with the ECON speed range.   \n1.18.13 Additional inputs from crew account of the incident \nPIC reported that visibility was good but approach was \u2018bumpy\u2019 due winds; as the aircraft Auto \nland status was current, he decided to carry out auto land as he felt that there is higher safety in \ndoing so.",
+      "frame": 74,
+      "length": 927
+    },
+    {
+      "id": 75,
+      "text": "e is higher safety in \ndoing so. \nThe First Officer reported that he had practised Auto Land during his type rating training in-\ncase of PIC In-capacitation, though he was not CAT II/III qualified. There was no \u201cPITCH \nPITCH \u201c alert generated during flare.  \nThe PIC who was the PF prepared the FMS for arrival by making a copy of the active flight plan \nto secondary and announced that arrival is prepared in secondary, which was also acknowledged \nby the First Officer during descent preparation (CVR). However, the First Officer informed \nduring discussion that he was not aware of the same. \n1.19 Useful or effective investigation techniques:- \nNil. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\nInvestigation report: VT-IMW 15.06.2023                                                                                                     Page 32 \n 2. Analysis:- \n2.1 Serviceability of the aircraft:- \n \nAirbus A321-252NX(neo) aircraft VT-IMW of IndiGo was issued a Certificate of Registration \non 01.11.",
+      "frame": 75,
+      "length": 991
+    },
+    {
+      "id": 76,
+      "text": "icate of Registration \non 01.11.2022 by DGCA-INDIA (entered in the register of India with effect from 28.10.2022) \nand its last ARC is valid till 03.11.2023. The aircraft (MSN-10882) was manufactured in 2022. \nThe aircraft had accumulated a total of 2389:48hrs since new.  \nTransit inspection of the aircraft was performed by AME before the flight from Bengaluru - \nAhmedabad (6E-6595) on 15.06.2023. No relevant MEL was active on VT-IMW as on the date \nof incident. \n \nBased on the approved Operations Manual -Part A of M/s InterGlobe Aviation Ltd. a Practice \nAutoland is conducted to keep the aircraft\u2019s Autoland status valid, wherein qualified pilots are \nrequired perform an Autoland every 30 days to authorised runways followed by an entry in the \nFRB i.e. whether the \u201cAutoland\u201d was satisfactory or not, for the purpose keeping aircraft \n\u201cAutoland\u201d status valid.",
+      "frame": 76,
+      "length": 869
+    },
+    {
+      "id": 77,
+      "text": "rcraft \n\u201cAutoland\u201d status valid.  \nThe airline has informed that they had a practice in which whenever a \u2018Practice Auto land\u2019 is \nrequired for the purpose of keeping aircraft\u2019s Auto land status, MCC was sharing the Autoland \nstatus mail with OCC and Dispatch on daily basis and OCC was further sending ACARS to crew \nusing automated process. However no documented procedure could be produced by M/s \nInterGlobe Aviation Ltd. in this regard.  \nIt has been informed by M/s IndiGo that, no message was sent from OCC to the flight crew for \nperforming a \u2018Practice Auto land\u2019 for the subject flight  on 15.06.2023. It has also been informed \nthat the practice of sending ACARS messages to flight crew for carrying out practice auto land \nhas been discontinued post subject incident, as the landing capability can be tested on ground \nitself. \nThe last practice Autoland for VT-IMW prior to the incident was carried out on 04.06.",
+      "frame": 77,
+      "length": 923
+    },
+    {
+      "id": 78,
+      "text": "cident was carried out on 04.06.2023 and \nAutoland Satisfactory entry was made in the FRB/ Technical log, there was no message sent \nfrom OCC to the flight crew on 04.06.2023 for performing a \u2018Practice Auto land\u2019.  \n\u201cPitch Pitch\u201d autocall was not generated  during flare as AutoPilot 1 & 2 were engaged during \nlanding. \nThe major and all lower inspections were carried out as and when due. The left Engine S/N \n59B109 had logged 2389:48Hrs / 1590 Cycles and the right Engine S/N 59B112 had logged \n2389:48Hrs / 1590 ECYC. There was no defect reported prior to departure for the subject flight \nsector.  \nPrior to the incident flight, the weight and balance of the aircraft was well within the operating \nlimits. \nThe serviceability of the aircraft was not a factor which contributed to the incident. \n \n \n\nInvestigation report: VT-IMW 15.06.2023                                                                                                     Page 33 \n  \n2.",
+      "frame": 78,
+      "length": 961
+    },
+    {
+      "id": 79,
+      "text": "Page 33 \n  \n2.2 Weather aspect: \nThe weather forecasts provided to the crew were valid for the arrival time at Ahmedabad. TAF \nfor Ahmedabad (VAAH) included in the flight folder indicated that forecasted winds were from \n190 degree and 18kt with gusts up to 28kt were expected. Hence,  the forecast clearly indicated \nthe possibility of significant wind and gusty conditions at the time of arrival at Ahmedabad.  \nThe Maximum Wind Conditions for an autoland as defined in FCOM by Airbus for VT-IMW \nis Headwind: 15kt; Tailwind: 10kt and Crosswind: 10kt \nThe FCOM further states that, Wind limitation is based on the surface wind reported by ATC. \nIf the wind displayed on the ND exceeds the above-noted autoland limitations, but the tower \nreports surface wind within the limitations, then the autopilot can remain engaged. If the tower \nreports a surface wind that exceeds the limitations, only CAT I automatic approach without \nautoland can be performed.",
+      "frame": 79,
+      "length": 956
+    },
+    {
+      "id": 80,
+      "text": "hout \nautoland can be performed. \nThe PIC continued the approach with intention of an autoland, though the approach was being \nperformed with ATC reported winds in excess of the FCOM limitations for an autoland.  \nAirbus analysis also points that, the auto-land approach has been initiated with significant wind \nconditions: \n- Longitudinal wind variations from -30kts (headwind) and 0kts \n- Left lateral wind variations from +23kts and +10kts \nWeather was a contributory factor in the incident. \n2.3 Flight Crew Training and Qualifications: \nPractice automatic landing in CAT I or better weather condition is permissible on approved \nrunways with CAT I ground installations or on CAT II/III ground installations when ILS \nsensitive areas are not protected. The practice autoland can only be carried out by the Flight \nCrew who are qualified for Cat II/ III operations. \nCrew after training and checks on simulator followed by one approach on aircraft are qualified \nfor CAT II/III operations.",
+      "frame": 80,
+      "length": 993
+    },
+    {
+      "id": 81,
+      "text": "fied \nfor CAT II/III operations. The PIC was appropriately trained and qualified for CAT II/III \noperations in which an autoland is carried out. The same was also included in the last training \non simulator in March 2023, which also complied with the recency requirement. \nPIC Incapacitation and autoland topics were included in \u2018ZFTT Simulator Training\u2019 dur ing \nInitial type rating course of First Officer in January 2020. However he was not trained and \nqualified for CAT II/ III operations. \nAhmedabad ILS RWY 23 has been approved by M/s InterGlobe Aviation Ltd. for Practice Auto \nLand and the information is detailed in the approved Operations Manual of M/s InterGlobe \nAviation Ltd. \nTo exercise the privileges of applicable CAT II/III authorization, a PIC/ Co-pilot shall have \ncarried out a minimum of 6 CAT II/III approaches to the authorised RVR including 3 landings \nin the approved simulator. Hence, there is no recency requirement for qualified crew to perform \n\nInvestigation report: VT-IMW 15.06.",
+      "frame": 81,
+      "length": 1012
+    },
+    {
+      "id": 82,
+      "text": "estigation report: VT-IMW 15.06.2023                                                                                                     Page 34 \n a practice autoland on aircraft. From the above it can be seen that practice autoland has to be \nconducted for the purpose of maintai ning aircraft \u201cAutoland\u201d status as valid or for initial crew \nqualification and not for crew recency requirements, however there is also no restriction on the \noperating crew from M/s InterGlobe Aviation Ltd. on performing \u201cAutoland\u201d, if used within \naircraft limitations. \nThe PIC was appropriately trained and qualified for CAT II/III operations whereas the First \nOfficer was not trained and qualified for CAT II/ III operations.  \nSOP For CAT II/ III Auto Land \nM/s IndiGo has a \u201cReady Reckoner\u201d which combines all the company requirements for ready \nreference to its crew when a CAT II/III Auto Land is planned to be performed, the same \nprocedure is followed for a Practice Auto Land in CAT I conditions.",
+      "frame": 82,
+      "length": 991
+    },
+    {
+      "id": 83,
+      "text": "e Auto Land in CAT I conditions. \nThis document outlines the entire process from Pre-requisites to review of failure cases prior to \nperforming an Autoland, including crew qualifications and wind limitations. Whereas in the \nsubject incident no review/ discussion/ briefing were conducted by the PIC and he directly \ninformed the ATC regarding his intention to perform a \u2018Practice Autoland\u2019. The First Officer \ndid not alert the PIC regarding his qualification status for Cat II/III operations. \nFCOM reference: Descent preparation - FMS configuration states that: Landing configuration \nto be selected on the MCDU-PERF APPR page: CONF FULL in the normal landing \nconfiguration. CONF 3 should be considered, depending on the available runway length and go-\naround performance, or if windshear/ severe turbulence is considered possible during approach. \nCONF FULL is the default landing configuration (in PERF page) during FMS configuration, \nwhich may be selected as CONF 3 by the crew, when required.  \n2.",
+      "frame": 83,
+      "length": 1006
+    },
+    {
+      "id": 84,
+      "text": "by the crew, when required.  \n2.3 (a) Company Operations notice on use of Flaps - CONF 3: \nVide Operations Notice (Airbus)- FLT/OPS/N-NO:32  IndiGo recommended use of Flap \n3(CONF 3) Landings whenever professional assessment and judgement determines that they are \nappropriate for execution. The operations notice also stated that, landing performance \npermitting, Flap3 Configuration is the preferred landing configuration every time. In-addition \nthe document stated that, during PIC Rout Checks the ability of the U/T PIC to execute Flap3 \napproach and Landing shall be observed in all Route Checks. \nFull Flap Landings were recommended in the following cases: Landings at Performance Limited \nAirfields, Tailwind Component 10kt or higher (due high ROD) and Landing Performance \nlimited.  \n \nThe Operations Notice (Airbus)- FLT/OPS/N-NO:32  has been replaced with Operations \nNotice(Airbus) FLT/OPS/N-NO: 02-06C  on SAFETY, SUSTAINABILITY & \nOPERATIONAL EFFICIENCY.",
+      "frame": 84,
+      "length": 968
+    },
+    {
+      "id": 85,
+      "text": "ILITY & \nOPERATIONAL EFFICIENCY. The operator has amended its Operations notice and has \ninformed to the pilots that they shall use their assessment and judgement to determine the \nappropriate Landing Configuration. CONF-3 should be considered depending on the available \nrunway length and go-around performance, or in case of windshear/severe turbulence during \napproach. While CONF-Full provides better handling capability in turbulent conditions,  \n\nInvestigation report: VT-IMW 15.06.2023                                                                                                     Page 35 \n CONF-3 provides more energy and less drag. Pilots are further advised to also refer to conditions \noutlined in FCOM, FCTM & OM-B on the subject. \n2.4 Operational handling: \n2.4.1 Descent Preparation: \nThe aircraft reached the cruise level of 36000ft by 07:14 UTC. FMS BITE indicated that a copy \nof the active FPLN to secondary FPLN has been done at 07:58:36 UTC with landing \nconfiguration as default (CONF FULL).",
+      "frame": 85,
+      "length": 1017
+    },
+    {
+      "id": 86,
+      "text": "guration as default (CONF FULL). Then, CONF 3 was selected in the active FPLN by the \ncrew during cruise around 08:00:41 UTC, before the top of descent (T/D). \nThe PIC informed the First Officer before top of descent (about 40 minutes before touchdown) \nthat he was configuring the FMS for arrival on secondary flight plan and not in primary which \nwas acknowledged by the First Officer. The PIC who was the PF for the sector prepared the \nFMS for arrival; he was responsible to appropriately plan the FMS- ARRIVAL, F-PLN A and \nPERF page. The PF is also required to enter the QNH, temperature and wind at destination and \nminimum.  \n \nBased on Airbus procedures:  \nAfter the PF prepares the FMS the PM is required to check the data entered made by the PF in \nthe FMS. So, that PM would have the same mental image of the intended arrival and approach \nprocedure, trajectory, and constraints than the PF. The PM should check with the PF if anything \nis not clear.",
+      "frame": 86,
+      "length": 962
+    },
+    {
+      "id": 87,
+      "text": "he PF if anything \nis not clear. \nAs per the available evidences neither did the First Officer crosscheck or raise any concern about \nthe FMS arrival data nor did he query the PIC about the flight plan or landing performance data.  \n \n2.4.2 Secondary Flight Plan: \nFCOM guidelines state that, the secondary flight plan is an option available to the crew. Before \nthe top of descent, the SEC F-PLN should either be set to an alternate runway for destination. \nSo that, if there is a last-minute runway change, then the flight crew only needs to activate the \nsecondary F-PLN. \nThe FCOM procedure also advises to check the VAPP after the activation of the SEC F-PLN, \nand modify it, if necessary. Also crew is required to check /modify the landing configuration.  \nThe PF is required to select the landing configuration on the PERF APPR page: CONF FULL \nin the normal landing configuration.",
+      "frame": 87,
+      "length": 888
+    },
+    {
+      "id": 88,
+      "text": "he normal landing configuration. CONF 3 should be considered, depending on the available \nrunway length and go-around performance, or if windshear/severe turbulence is considered \npossible during approach, the forecasted winds were from 190 degree and 18kt with gusts up to \n28kt were expected. When the flight crew plans on landing in FLAPS 3 configuration, the GPWS \nLDG FLAP 3 PB-SW is set to ON. Upon completion of this task, \u2018Flaps\u2019 in ECAM checklist \nwill also be indicated as complied (No Blue) as soon as Flaps are in \u2018CONF 3\u2019.  \n   \n2.4.3 FLT PLAN handling:  \nThe PIC who was the PF prepared the FMS for arrival by making a copy of the active flight plan \nto secondary and announced it which was also acknowledged by the First Officer during descent \npreparation. However, the First Officer informed that he was not aware of the same, the First \nOfficer did not cross check the FMS data and the acknowledgement was likely not made \n\nInvestigation report: VT-IMW 15.06.",
+      "frame": 88,
+      "length": 977
+    },
+    {
+      "id": 89,
+      "text": "estigation report: VT-IMW 15.06.2023                                                                                                     Page 36 \n consciously and was made in the flow while the crew were performing descent preparation \nwithout having the mental picture of the approach planned by the PIC. \nHowever the PIC configured the arrival Performance in active flight plan. After 08:01:39 UTC \nthe aircraft started descent. At 08:07:12 UTC (30 minutes to touchdown) secondary FPLN was \nactivated during the descent. This led to the reversion of landing configuration to CONF FULL \nas copied previously. This activation of the secondary flight plan was not announced by the PIC. \nThis disconnect between the either crew members is further evident during the unannounced \nactivation of the secondary flight plan at 08:07:12 UTC (i.e., 30 minutes to touchdown) which \nled to the reversion of landing configuration to CONF FULL as copied previously.",
+      "frame": 89,
+      "length": 952
+    },
+    {
+      "id": 90,
+      "text": "CONF FULL as copied previously. Initial entries \nand changed entries to automated systems were not verbalised and acknowledged. \n2.5 Events leading to the incident: \nCrew carried out arrival briefing for Ahmedabad, for a CONF 3 landing including the actions in \ncase of a go-around. After coming in contact with Ahmedabad the crew changed over to \nAhmedabad, however crew was unable to contact Ahmedabad again when released by Mumbai \n(approx. 34 minutes to touchdown). The First Officer again requested Mumbai for Ahmedabad \nfrequency and PIC took over the communications. Then PIC was able to contact Ahmedabad on \nfrequency given by Mumbai. Once in contact with Ahmedabad control (approx. 30 minutes to \ntouchdown) the aircraft was cleared via APANO 1A arrival RWY23 and was advised to expect \nradar vector ILS approach RWY 23; during this period (08:07:12 UTC, i.e., approx. 30 minutes \nto touchdown) secondary FPLN was activated during the descent.",
+      "frame": 90,
+      "length": 953
+    },
+    {
+      "id": 91,
+      "text": "as activated during the descent. This led to the reversion in \nlanding configuration to CONF FULL as copied previously. At no point was the activation of \nthe secondary flight plan brought to the attention of the First Officer who was the Pilot \nMonitoring.  \n \nCrew carried out approach checklist and Minimum discussed was 430ft, QNH received from \nATC was 1002 hPa. A few minutes later the QNH reported by ATC as 1001 hPa and PIC brought \nthe attention of the First Officer towards the drop in QNH. The PIC was concerned about the \nweather and kept discussing with the First Officer about the approaching weather being observed \nby them at Ahmedabad during the descent and approach, even at 10Nm to touchdown. \nThe crew contacted Ahmedabad tower at about nine miles to touchdown and Ahmedabad tower \ninformed that the Winds were 190\u00b0 26kt gusting up to 29kt. PIC rechecked with the First Officer \nregarding the wind information transmitted by the ATC.",
+      "frame": 91,
+      "length": 953
+    },
+    {
+      "id": 92,
+      "text": "ormation transmitted by the ATC. First Officer\u2019s reply is not clea rly heard \nin CVR but the recorded information is that winds were 15 gusting.  \nAbout a minute and half later (approximately 02 minutes to touchdown), the ATC Tower cleared \nVT-IMW for landing on RWY23, the tower reported winds at this time were 190\u00b0 20kt gusting \nup to 25 kt. Flaps 3 was selected and Landing checklist was completed. The PIC is observed to \nbe again discussing the approaching weather with the First Officer and informed the Tower \ncontroller to expedite landing of other aircraft as weather was approaching and was likely to hit \nthe area soon. \n \nDuring the approach just prior to the 1000 ft auto-call (about 01 minutes and 20 seconds to \ntouchdown), PIC informed the First Officer that he was thinking of putting \u2018No DH\u2019, which he \nthought was the safest thing to do in the prevailing condition.",
+      "frame": 92,
+      "length": 885
+    },
+    {
+      "id": 93,
+      "text": "do in the prevailing condition. Soon the First Officer queried \nwith the PIC regarding configuration used; The PIC interrupted the First Officer, the reply was \n\nInvestigation report: VT-IMW 15.06.2023                                                                                                     Page 37 \n immediate and not receptive towards the opinion/ input, which the First Officer was trying to \ncommunicate, the PIC stated that the configuration used was CONF 3 and it is the best for a go-\naround. The First Officer further did not speak up and state his intentions with appropriate \npersistence. The PIC promoted the course of action that he felt was the best, even though the \nprerequisites for an Practice Auto Land were not followed/ complied.  \n \nThe PIC then advised the First Officer to remind of \u2018minimum\u2019 at \u2018430\u2019, so that he would \ndisconnect the Auto Pilot, following which (at approx.",
+      "frame": 93,
+      "length": 909
+    },
+    {
+      "id": 94,
+      "text": "lot, following which (at approx. 01 minute and 10 seconds to touchdown) \nthe PIC then made a call to the ATC that \u2018Carrying out practice Auto land\u2019. The controller \nacknowledged the call and advised the crew that sensitive areas were not protected. The decision \nto perform a \u2018Practice Autoland' was not communicated in the cockpit; it was taken \nindependently by the PIC and not after discussion with the First Officer indicating a lack of \neffective CRM and exclusion of the First Officer from the decision making, neither did the First \nOfficer inform the PIC about his qualification status for Cat II/III operations. The \u201coverall \npicture\u201d and the approach plan were not shared with the First Officer.  \n \nThe system design for managed speed/Mach is such that the lowest target is VLS. However, in \nthe approach phase, VAPP is memorised at 700 ft RA, so that if the FMS loses the VAPP below \n700ft RA, the managed speed target will still be computed.",
+      "frame": 94,
+      "length": 954
+    },
+    {
+      "id": 95,
+      "text": "d target will still be computed. The lower limit of the managed \nspeed target is the VAPP that is computed by the FMS, and displayed on the MCDU. In the \nsubject scenario, the VLS was 140kt and the Ground Speed Mini function adjusted target speeds \nfor the wind conditions during approach. However below 700ft radio altitude, the target speed \nwas the memorised Vapp which in this case, due to selection of Landing Configuration as \nCONFIG FULL was less than VLS (which was calculated for selected configuration of CONF \n3). This resulted in the target speed being lower than VLS. The PF and the PM did not monitor \nthe drop in the target speed and the drop in aircraft speed below the VLS was not announced.  \n \nPIC announced \u2018Land green\u2019 and advised the First Officer for \u2018Low brake\u2019 about 30 seconds \nbefore touchdown. The First Officer did not respond to the actions of the PIC nor did he take \nany role in the monitoring and announcing the parameters during the \u2018Practice Autoland'.",
+      "frame": 95,
+      "length": 987
+    },
+    {
+      "id": 96,
+      "text": "during the \u2018Practice Autoland'. \nThere was a significant change in winds below 60ft radio altitude from approx. 28kt to 11kt at \ntouchdown and change in direction from about 175\u00b0 to about 130\u00b0. The aircraft pitch was about \n4\u00b0-5\u00b0 during final approach below 500ft radio altitude. Below 50ft radio altitude the aircraft \npitch started increasing from 4.7\u00b0. The aircraft pitch increased beyond 5\u00b0 below 40ft radio \naltitude and reached a max of 10\u00b0 upon touchdown. The speed at touchdown was about 15kt \nbelow VLS. There were no callouts from the PF or the PM regarding the target air speed \nfluctuation below the VLS (140kt) during the approach.  \n \nUpon touchdown the PIC announced Reversers and advised the First Officer to announce further \nchecklist items, as the First Officer did not announce any callouts during the final approach to \nflare. During TAXI IN at Ahmedabad, the PIC discussed with the First Officer that the winds \nwere really gusty and that the aircraft was shaking even with automation.",
+      "frame": 96,
+      "length": 1007
+    },
+    {
+      "id": 97,
+      "text": "as shaking even with automation. He added that in such \nscenarios manual flying is not easy and that the best thing to do is use automation, which is \ncontrary to the limitations and system definition for performing an AUTO Land. \n\nInvestigation report: VT-IMW 15.06.2023                                                                                                     Page 38 \n CRM issues identified were associated with poor decision-making, ineffective communication, \nand poor task or resource management. FCOM/SOP's defines the shared mental model upon \nwhich a good crew performance depends upon, the established SOP's had been ignored by the \ncrew. \nTo summarise the above; due to CONFIG FULL selection made in the performance(PERF) page \nduring the FMS setup and CONF 3 being selected during approach, the FMS memorised target \nspeed (Vapp) which was below VLS for CONF 3 was maintained below 700ft during the \napproach.",
+      "frame": 97,
+      "length": 931
+    },
+    {
+      "id": 98,
+      "text": "elow 700ft during the \napproach. The decrease in speed is of the extent of VLS-15 which caused a decrease in aircraft \nenergy. The low energy state of the aircraft and variations in the prevailing winds resulted in an \nincrease of pitch and the ensuing tail ground contact during touchdown. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\nInvestigation report: VT-IMW 15.06.2023                                                                                                     Page 39 \n  \n3. Conclusion \n3.1 Findings: \n1. The aircraft was having a valid Certificate of Airworthiness, Airworthiness Review \nCertificate and Certificate of Registration as on the date of incident. \n2. The Operating cockpit crew members were having valid licences and ratings for operating \nthe aircraft. \n3. The crew members who operated the flight underwent a Breath-analyser test for alcohol \nconsumption at Bengaluru prior to departure to Ahmedabad and the test result was \n\u2018Negative\u2019. \n4.",
+      "frame": 98,
+      "length": 969
+    },
+    {
+      "id": 99,
+      "text": "test result was \n\u2018Negative\u2019. \n4. The aircraft was released in a serviceable condition for the scheduled passenger flight from \nBengaluru on 15.06.2023 for operating 6E-6595(Bengaluru to Ahmedabad). There were no \ndefects reported prior to the incident sector.  \n5. The incident sector (Bengaluru-Ahmedabad) was the first flight sector for the subject crew \nmembers on 15.06.2023.  \n6. PIC was the Pilot Flying and the First Officer was the Pilot Monitoring for the subject flight \nsector. \n7. Flight Duty Time of both the crew members was within the specified limits. \n8. The Pilot Flying (PIC) was adequately trained and qualified for CAT II/ III operations, \nwhile the First Officer was not trained and qualified for Cat II/ Cat III operations.  \n9. There is no requirement for crew to perform \u2018Practice Autoland\u2019 to maintain the recency of \ntheir CAT II/III operations. \n10. There were no instructions from M/s IndiGo to the flight crew for the subject flight to \nperform a \u2018Practice Auto land\u2019. \n11.",
+      "frame": 99,
+      "length": 1003
+    },
+    {
+      "id": 100,
+      "text": "orm a \u2018Practice Auto land\u2019. \n11. PIC made a copy of the active FPLN to secondary FPLN at 07:58:36 UTC with landing \nconfiguration as default (CONF FULL). Then, CONF 3 was selected in the active FPLN by \nthe crew during cruise around 08:00:41 UTC, before the top of descent. \n12. Before top of descent that PIC configured the FMS for arrival on secondary flight plan, \nwhich was acknowledged by the First Officer.  \n13. Arrival briefing for Ahmedabad was conducted for a CONF 3 landing including the actions \nin case of a go-around.  \n14. The crew contacted Ahmedabad tower at about nine miles to touchdown and Ahmedabad \ntower informed that the Winds were 190\u00b0 26kt gusting upto 29kt. PIC rechecked with the \nFirst Officer regarding the wind information transmitted by the ATC. The First Officer did \nnot alert the PIC about the correct winds.  \n15. Wind information transmitted by Ahmedabad ATC (Tower) prior to landing was 190\u00b0 20kt \ngusting up to 25kt. The FCOM limitations w.r.",
+      "frame": 100,
+      "length": 981
+    },
+    {
+      "id": 101,
+      "text": "25kt. The FCOM limitations w.r.t Maximum Wind Conditions for an autoland \nare Headwind: 15kt; Tailwind: 10kt and Crosswind: 10kt. Since the tower reported surface \nwind exceeded the limitations, only CAT I automatic approach without Auto land could be \nperformed. \n16. During the issue of landing clearance, ATC informed the crew that the winds were 190\u00b0 \n20kt gusting to 25kt. The operating crew were aware of the prevailing wind conditions and \nstill chose to continue with the 'Auto land'.  \n\nInvestigation report: VT-IMW 15.06.2023                                                                                                     Page 40 \n 17. The winds as per FDR indicated that at the time of approach the prevailing wind conditions, \ni.e., wind speed was steadily beyond the aircraft limitations for an Auto land. \n18. TAF available to the operating crew was 190\u00b0 18kt Gust up to 28kt for the period of arrival. \n19. Before 1000 ft.",
+      "frame": 101,
+      "length": 941
+    },
+    {
+      "id": 102,
+      "text": "of arrival. \n19. Before 1000 ft. the aircraft was configured for landing and was on profile, speed trend was \nfluctuating. AP1 remained active from take-off till landing. AP2 was selected at 1896 ft \nradio altitude during approach (08:27:32 UTC).   \n20. Passing 700ft in approach the IAS was 151kt and ground speed was 133 kt. Below 700ft \nradio altitude, the Vapp dropped below VLS (140) (the ground speed was about 122-127kt). \nThis was a result of CONFIG FULL selection made in the performance (PERF APPR) page \nduring the FMS setup and CONF 3 being selected during approach, the FMS memorised \ntarget speed (Vapp) was below VLS for CONF 3. \n21. Decision to do an Auto land was made only during the final approach segment by the PIC \nbelow 700ft radio altitude and First Officer was not consulted during the decision making. \nNeither did the First Officer inform the PIC about his qualification status for Cat II/III \noperations. \n22.",
+      "frame": 102,
+      "length": 937
+    },
+    {
+      "id": 103,
+      "text": "for Cat II/III \noperations. \n22. Autoland was carried out, but neither was a briefing for Autoland nor was its checklist \nfollowed as per SOP. \n23. Passing 60ft radio altitude the aircraft speed was 144kt IAS and 124kt ground speed. There \nwas a significant change in winds below 60ft radio altitude from approx. 28kt to 11kt at \ntouchdown and change in direction from about 175\u00b0 to about 130\u00b0. \n24. Winds were variable below 1000 feet quartering left headwind varying between 20kt to \n35kt.  \n25. The aircraft geometry is such that aircraft tail would make ground contact when the aircraft \npitch UP angle is near/ more than 9.7 degree UP with Shock Absorber Fully compressed \nand near/ more than 11.2 degree UP with Shock Absorber Fully extended. \n26. Below 50ft radio altitude the aircraft pitch started increasing from 4.7\u00b0 and reached a \nmaximum of 10\u00ba at touchdown of main wheels which was at 08:37:26UTC. The aircraft \nvertical speed was 128ft/min at touchdown and vertical acceleration of 1.85g.",
+      "frame": 103,
+      "length": 1003
+    },
+    {
+      "id": 104,
+      "text": "vertical acceleration of 1.85g.  The aircraft \nspeed, IAS at touchdown was 125kt and ground speed was 124 kt.  \n27. Aircraft pitch attitude at touchdown was 10\u00b0 and Tail portion of the fuselage made ground \ncontact. The speed at touchdown was about 15kt below VLS. \n28. \u2018Practice Auto land\u2019 is required to be performed every 30 days to authorised runways to \nkeep the aircraft\u2019s Auto land status valid. The last \u2018Practice Autoland\u2019 for VT-IMW prior \nto the incident was carried out on 04.06.2023. The aircraft\u2019s autoland status was valid as on \ndate of the incident.  \n29. Requirement to perform \u2018practice auto land\u2019 for maintaining the aircraft\u2019s Auto land status \n\u2018valid\u2019 has been discontinued post subject incident, as the landing capability is tested on \nground itself. \n30. \u201cPitch Pitch\u201d autocall was not generated during flare as Autopilot was ON during landing. \n \n \n \n \n \n \n \n\nInvestigation report: VT-IMW 15.06.",
+      "frame": 104,
+      "length": 920
+    },
+    {
+      "id": 105,
+      "text": "estigation report: VT-IMW 15.06.2023                                                                                                     Page 41 \n 3.2 Probable cause: \n \nThe probable cause of the incident was the aircraft speed reduction to the extent of VLS-15kt, \nthe low energy state of the aircraft resulted in an increase of pitch beyond limits during the \nautoland and the ensuing contact of the aircraft tail section with ground during touchdown.  \nThe following factors led to the incident: - \n\uf0b7 Non-adherence to SOP (Standard Operating Procedures) during FMS configuration and \nduring activation of the Secondary Flight Plan, i.e., FMS active and secondary FLPNs \nmishandling. \n\uf0b7 Flaps CONF 3 selection made during approach against a planned approach with \nCONFIG FULL in the FMS performance page, leading to a lower target speed \ncomputation. \n\uf0b7 PIC\u2019s non -compliance with the SOP for an Auto Land, including wind limitations and \nflight crew qualifications.",
+      "frame": 105,
+      "length": 968
+    },
+    {
+      "id": 106,
+      "text": "and \nflight crew qualifications. \n\uf0b7 Lack of effective CRM between the operating crew members. \n \n4. Safety Recommendations: \n \n1. Necessary corrective training may be imparted to the flight crew in-view of the findings \ndetailed above. \n \n \n     (LINJU VALAYIL PHILIP)     (RAMESH CHAND)\n                                     Deputy Director of Air Safety                  Air Safety Officer \n                 Investigator-In-Charge       Member                     \n           \n \nDate : 19.03.2025 \nPlace : New Delhi RAMESH \nCHANDDigitally signed by RAMESH CHAND \nDN: c=IN, o=Directorate General of Civil \nAviation, ou=DGCA, \n2.5.4.20=2d955f75404da027ce9c4957f619f\nf9c339cf24458f6ac55e70bd657c051c74a, \npostalCode=110037, st=DELHI, \nserialNumber=3b348d8c7a62754affee3afc\na3f28cf983a27ec0e187e44e583d3beae52e\n3f8d, cn=RAMESH CHAND \nDate: 2025.03.19 10:00:30 +05'30'Digitally signed by \nLINJU VALAYIL PHILIP\nDate: 2025.03.19 \n15:02:38+05'30'LINJU VALAYIL \nPHILIP",
+      "frame": 106,
+      "length": 960
+    }
+  ],
+  "chunk_to_frame": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5,
+    "6": 6,
+    "7": 7,
+    "8": 8,
+    "9": 9,
+    "10": 10,
+    "11": 11,
+    "12": 12,
+    "13": 13,
+    "14": 14,
+    "15": 15,
+    "16": 16,
+    "17": 17,
+    "18": 18,
+    "19": 19,
+    "20": 20,
+    "21": 21,
+    "22": 22,
+    "23": 23,
+    "24": 24,
+    "25": 25,
+    "26": 26,
+    "27": 27,
+    "28": 28,
+    "29": 29,
+    "30": 30,
+    "31": 31,
+    "32": 32,
+    "33": 33,
+    "34": 34,
+    "35": 35,
+    "36": 36,
+    "37": 37,
+    "38": 38,
+    "39": 39,
+    "40": 40,
+    "41": 41,
+    "42": 42,
+    "43": 43,
+    "44": 44,
+    "45": 45,
+    "46": 46,
+    "47": 47,
+    "48": 48,
+    "49": 49,
+    "50": 50,
+    "51": 51,
+    "52": 52,
+    "53": 53,
+    "54": 54,
+    "55": 55,
+    "56": 56,
+    "57": 57,
+    "58": 58,
+    "59": 59,
+    "60": 60,
+    "61": 61,
+    "62": 62,
+    "63": 63,
+    "64": 64,
+    "65": 65,
+    "66": 66,
+    "67": 67,
+    "68": 68,
+    "69": 69,
+    "70": 70,
+    "71": 71,
+    "72": 72,
+    "73": 73,
+    "74": 74,
+    "75": 75,
+    "76": 76,
+    "77": 77,
+    "78": 78,
+    "79": 79,
+    "80": 80,
+    "81": 81,
+    "82": 82,
+    "83": 83,
+    "84": 84,
+    "85": 85,
+    "86": 86,
+    "87": 87,
+    "88": 88,
+    "89": 89,
+    "90": 90,
+    "91": 91,
+    "92": 92,
+    "93": 93,
+    "94": 94,
+    "95": 95,
+    "96": 96,
+    "97": 97,
+    "98": 98,
+    "99": 99,
+    "100": 100,
+    "101": 101,
+    "102": 102,
+    "103": 103,
+    "104": 104,
+    "105": 105,
+    "106": 106
+  },
+  "frame_to_chunks": {
+    "0": [
+      0
+    ],
+    "1": [
+      1
+    ],
+    "2": [
+      2
+    ],
+    "3": [
+      3
+    ],
+    "4": [
+      4
+    ],
+    "5": [
+      5
+    ],
+    "6": [
+      6
+    ],
+    "7": [
+      7
+    ],
+    "8": [
+      8
+    ],
+    "9": [
+      9
+    ],
+    "10": [
+      10
+    ],
+    "11": [
+      11
+    ],
+    "12": [
+      12
+    ],
+    "13": [
+      13
+    ],
+    "14": [
+      14
+    ],
+    "15": [
+      15
+    ],
+    "16": [
+      16
+    ],
+    "17": [
+      17
+    ],
+    "18": [
+      18
+    ],
+    "19": [
+      19
+    ],
+    "20": [
+      20
+    ],
+    "21": [
+      21
+    ],
+    "22": [
+      22
+    ],
+    "23": [
+      23
+    ],
+    "24": [
+      24
+    ],
+    "25": [
+      25
+    ],
+    "26": [
+      26
+    ],
+    "27": [
+      27
+    ],
+    "28": [
+      28
+    ],
+    "29": [
+      29
+    ],
+    "30": [
+      30
+    ],
+    "31": [
+      31
+    ],
+    "32": [
+      32
+    ],
+    "33": [
+      33
+    ],
+    "34": [
+      34
+    ],
+    "35": [
+      35
+    ],
+    "36": [
+      36
+    ],
+    "37": [
+      37
+    ],
+    "38": [
+      38
+    ],
+    "39": [
+      39
+    ],
+    "40": [
+      40
+    ],
+    "41": [
+      41
+    ],
+    "42": [
+      42
+    ],
+    "43": [
+      43
+    ],
+    "44": [
+      44
+    ],
+    "45": [
+      45
+    ],
+    "46": [
+      46
+    ],
+    "47": [
+      47
+    ],
+    "48": [
+      48
+    ],
+    "49": [
+      49
+    ],
+    "50": [
+      50
+    ],
+    "51": [
+      51
+    ],
+    "52": [
+      52
+    ],
+    "53": [
+      53
+    ],
+    "54": [
+      54
+    ],
+    "55": [
+      55
+    ],
+    "56": [
+      56
+    ],
+    "57": [
+      57
+    ],
+    "58": [
+      58
+    ],
+    "59": [
+      59
+    ],
+    "60": [
+      60
+    ],
+    "61": [
+      61
+    ],
+    "62": [
+      62
+    ],
+    "63": [
+      63
+    ],
+    "64": [
+      64
+    ],
+    "65": [
+      65
+    ],
+    "66": [
+      66
+    ],
+    "67": [
+      67
+    ],
+    "68": [
+      68
+    ],
+    "69": [
+      69
+    ],
+    "70": [
+      70
+    ],
+    "71": [
+      71
+    ],
+    "72": [
+      72
+    ],
+    "73": [
+      73
+    ],
+    "74": [
+      74
+    ],
+    "75": [
+      75
+    ],
+    "76": [
+      76
+    ],
+    "77": [
+      77
+    ],
+    "78": [
+      78
+    ],
+    "79": [
+      79
+    ],
+    "80": [
+      80
+    ],
+    "81": [
+      81
+    ],
+    "82": [
+      82
+    ],
+    "83": [
+      83
+    ],
+    "84": [
+      84
+    ],
+    "85": [
+      85
+    ],
+    "86": [
+      86
+    ],
+    "87": [
+      87
+    ],
+    "88": [
+      88
+    ],
+    "89": [
+      89
+    ],
+    "90": [
+      90
+    ],
+    "91": [
+      91
+    ],
+    "92": [
+      92
+    ],
+    "93": [
+      93
+    ],
+    "94": [
+      94
+    ],
+    "95": [
+      95
+    ],
+    "96": [
+      96
+    ],
+    "97": [
+      97
+    ],
+    "98": [
+      98
+    ],
+    "99": [
+      99
+    ],
+    "100": [
+      100
+    ],
+    "101": [
+      101
+    ],
+    "102": [
+      102
+    ],
+    "103": [
+      103
+    ],
+    "104": [
+      104
+    ],
+    "105": [
+      105
+    ],
+    "106": [
+      106
+    ]
+  },
+  "config": {
+    "qr": {
+      "version": 35,
+      "error_correction": "M",
+      "box_size": 5,
+      "border": 3,
+      "fill_color": "black",
+      "back_color": "white"
+    },
+    "codec": "h265",
+    "chunking": {
+      "chunk_size": 1024,
+      "overlap": 32
+    },
+    "retrieval": {
+      "top_k": 5,
+      "batch_size": 100,
+      "max_workers": 4,
+      "cache_size": 1000
+    },
+    "embedding": {
+      "model": "all-MiniLM-L6-v2",
+      "dimension": 384
+    },
+    "index": {
+      "type": "Flat",
+      "nlist": 100
+    },
+    "llm": {
+      "model": "gemini-2.0-flash-exp",
+      "max_tokens": 8192,
+      "temperature": 0.1,
+      "context_window": 32000
+    },
+    "chat": {
+      "max_history": 10,
+      "context_chunks": 5
+    },
+    "performance": {
+      "prefetch_frames": 50,
+      "decode_timeout": 10
+    }
+  }
+}
