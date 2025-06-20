@@ -1,4 +1,21 @@
 .venv
-DGCA-Accident-Reports-15-files/*
+
+# this pdf from the DGCA Accident Reports are quite large pdfs so I am ignoring the files getting uploaded on to github
+DGCA-Accident-Reports-15-files/* 
+
+
 .env
 *.pdf
+*.json
+*.mkv
+*.faiss
+*.metadata
+*.index
+*.index.json
+*.conversation.json
+*.conversation
+*.log
+*.pyc
+*.mp4
+
+output/*
