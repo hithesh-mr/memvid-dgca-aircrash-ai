@@ -2,3 +2,6 @@ memvid
 PyPDF2
 openai
 python-dotenv
+fastapi
+uvicorn
+pydantic
