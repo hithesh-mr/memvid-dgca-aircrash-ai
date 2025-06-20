@@ -19,3 +19,6 @@ DGCA-Accident-Reports-15-files/*
 *.mp4
 
 output/*
+# Include generated memory in data/current
+!data/current/
+!data/current/**

@@ -85,6 +85,21 @@ analysis = ai.analyze_document("path/to/accident_report.pdf")
 video_analysis = ai.analyze_video("path/to/accident_video.mp4")
 ```
 
+## Encoding Markdown Reports
+
+Use the provided `data_processing/encoder.py` script to encode extracted Markdown accident reports into a MemVid memory video and searchable index.
+
+Example:
+
+```bash
+python data_processing/encoder.py --input-dir data/accident-reports-15-markdown --output-dir data/current
+```
+
+This process:
+- Reads all `.md` files under `data/accident-reports-15-markdown`
+- Configures MemvidEncoder with `chunk_size=2048`, `overlap=64`, and `IVF` index type
+- Generates a memory video (e.g., `encoded_memory.mp4` or `.mkv`)
+- Writes `encoded_memory_index.json` and `encoded_memory_index.faiss` in the output directory
 ## Project Structure
 
 ```

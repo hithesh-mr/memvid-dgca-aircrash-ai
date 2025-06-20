@@ -82,3 +82,18 @@ If you encounter issues with Tesseract:
 1. Verify Tesseract is installed and in your system PATH
 2. Specify the full path to the Tesseract executable using `--tesseract`
 3. Ensure you have the appropriate language data installed
+## Encoding Markdown Reports
+
+Use the [`data_processing/encoder.py`](data_processing/encoder.py:1) script to encode extracted Markdown accident reports into a MemVid memory video and searchable index.
+
+Example:
+
+```bash
+python data_processing/encoder.py --input-dir data/accident-reports-15-markdown --output-dir data/current
+```
+
+This process:
+- Reads all `.md` files under `data/accident-reports-15-markdown`
+- Configures `MemvidEncoder` with `chunk_size=2048`, `overlap=64`, and `IVF` index type
+- Generates a memory video file in the specified output directory
+- Writes `encoded_memory_index.json` and `encoded_memory_index.faiss` alongside the video

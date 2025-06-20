@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sherlock MemVid</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <h2>Data: Reports Overview</h2>
+      <p>The <code>data/</code> directory contains two representations of DGCA accident reports:</p>
+      <ul>
+        <li><strong>PDFs</strong>: Original official DGCA accident report documents.</li>
+        <li><strong>Markdown</strong>: Text-extracted versions of 15 recent reports for encoding.</li>
+      </ul>
+      <h3>Included Incidents</h3>
+      <ul>
+        <li>VT-EDV: Accident on 15 Nov 1993</li>
+        <li>Bell 206B3 VT-DAP: Kovvadalanka on 03 Mar 2002</li>
+        <li>Mid-air collision IL-76</li>
+        <li>VT-ILR: Tail strike incident</li>
+        <li>VT-ECQ, VT-EFL, VT-EGD, VT-EIE, VT-EJW, VT-EPN, VT-EQM, VT-EUJ, VT-SIA and others</li>
+      </ul>
+    </div>
+    <div class="chat-area">
+      <h1 class="title">🔍 Sherlock MemVid</h1>
+      <p class="subtitle">Expert investigator of airplane accidents. Ask me anything.</p>
+      <div id="chat-window" class="chat-window"></div>
+      <div class="input-area">
+        <input type="text" id="user-input" placeholder="Type your question…" autofocus>
+        <button id="send-btn">Ask</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
