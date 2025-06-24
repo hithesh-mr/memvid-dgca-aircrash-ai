@@ -7,18 +7,17 @@ from typing import Optional
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.staticfiles import StaticFiles
-from fastapi.responses import FileResponse
+from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 
-from server.search import search
+from .search import search
 
 class SearchRequest(BaseModel):
     query: str
     provider: Optional[str] = "openai"
     model: Optional[str] = None
 
-app = FastAPI(title="MemVid File Chat Server")
+app = FastAPI(title="MemVid Search API")
 
 # Enable CORS for all origins (adjust as needed)
 app.add_middleware(
@@ -38,15 +37,10 @@ async def api_search(request: SearchRequest):
     except Exception as exc:
         raise HTTPException(status_code=500, detail=str(exc))
 
-# Static files (CSS/JS) served under /static
-client_dir = os.path.join(os.path.dirname(__file__), '..', 'client')
-app.mount("/static", StaticFiles(directory=client_dir), name="static")
-
-# Serve index.html at root
+# Simple root endpoint
 @app.get("/")
-async def serve_index():
-    index_path = os.path.join(client_dir, "index.html")
-    return FileResponse(index_path)
+async def read_root():
+    return JSONResponse(content={"message": "MemVid Search API is running"})
 
 if __name__ == "__main__":
     import uvicorn
