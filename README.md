@@ -126,6 +126,80 @@ memvid-dgca-aircrash-ai/
 └── requirements.txt
 ```
 
+## Architecture
+
+### System Overview
+
+The application follows a pipeline architecture with the following key components:
+
+```mermaid
+flowchart TD
+    A[PDF Reports] -->|PDF Extractor| B[Markdown Files]
+    B -->|Encoder| C[Memory Video + Index]
+    C -->|Search API| D[User Queries]
+    D -->|Results| E[Responses]
+```
+
+### Detailed Workflow
+
+1. **PDF Processing Phase**
+   - `data_processing/pdf_extractor.py` processes PDF documents
+   - Converts both searchable and scanned PDFs to markdown format
+   - Preserves document structure and metadata
+   - Outputs clean, structured markdown files
+
+2. **Encoding Phase**
+   - `data_processing/encoder.py` processes the markdown files
+   - Encodes text content into a memory-efficient video format
+   - Generates two index files:
+     - `encoded_memory_index.json`: Contains metadata and chunk information
+     - `encoded_memory_index.faiss`: FAISS index for efficient similarity search
+
+3. **Search Phase**
+   - `server/search.py` handles search functionality
+   - `server/app.py` provides a FastAPI-based REST API
+   - Queries are processed using the encoded video and FAISS index
+   - Supports multiple LLM providers (OpenAI by default)
+
+### Data Flow
+
+1. **Input**: PDF documents are placed in the `data/dgca_reports/` directory
+2. **Processing**:
+   ```bash
+   # Convert PDFs to markdown
+   python -m data_processing.pdf_extractor data/dgca_reports -o data/processed_markdown
+   
+   # Encode markdown to memory format
+   python data_processing/encoder.py --input-dir data/processed_markdown --output-dir data/current
+   ```
+3. **Serving**:
+   ```bash
+   # Start the search API
+   uvicorn server.app:app --host 0.0.0.0 --port 5000
+   ```
+4. **Querying**:
+   ```bash
+   # Example API request
+   curl -X POST http://localhost:5000/api/search \
+     -H "Content-Type: application/json" \
+     -d '{"query": "What were the main causes of recent aviation accidents?"}'
+   ```
+
+### Key Components
+
+- **PDF Extractor**: Handles both searchable and scanned PDFs with OCR support
+- **Memory Encoder**: Converts text to a compressed video representation
+- **Vector Store**: FAISS index for efficient similarity search
+- **Search API**: FastAPI-based REST endpoint for querying the knowledge base
+
+### Performance Considerations
+
+- Processing is done in chunks to handle large documents
+- FAISS index enables fast similarity search
+- Memory video format provides efficient storage of text embeddings
+- Supports parallel processing of multiple documents
+```
+
 ## Data Usage and Citation
 
 When using the DGCA accident reports, please ensure to:
